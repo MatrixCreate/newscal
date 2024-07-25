@@ -1,6 +1,6 @@
-title = "World Builder"
+title = "NewsCal"
 # The URL the site will be built for
-base_url = "https://world-builder.pages.dev"
+base_url = "https://newscal.matrixcreate.com"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false

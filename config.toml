@@ -9,9 +9,11 @@ compile_sass = false
 build_search_index = true
 
 # Is the place a continent, city, town, .. etc?
-#taxonomies = [
-    #{ name = "place_type", feed = true }
-#]
+taxonomies = [
+  { name = "categories", feed = true },
+  { name = "tags", feed = true },
+  { name = "source", feed = true },
+]
 
 [markdown]
 # Whether to do syntax highlighting

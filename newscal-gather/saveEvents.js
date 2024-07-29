@@ -45,7 +45,8 @@ function createMarkdownFiles(dataArray) {
 title: "${title}"
 
 taxonomies:
-  source: ${source}
+  source:
+    - ${source}
 
 extra:
   url: ${url}

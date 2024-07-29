@@ -2,7 +2,8 @@
 title: "Economic activity and social change in the UK, real-time indicators: 8 August 2024"
 
 taxonomies:
-  source: ONS
+  source:
+    - ONS
 
 extra:
   url: https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators8august2024

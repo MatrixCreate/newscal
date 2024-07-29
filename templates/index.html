@@ -4,22 +4,18 @@
 
 {% block body %}
 
-<main class="mx-auto container pt-10">
+<main class="p-4 lg:p-8">
   <h1 class="font-bold text-4xl mb-4">{{ config.title }}</h1>
-
-  <!-- <div class="editor" id="editor"></div> -->
-  <div class="page-content">{{ section.content | safe }}</div>
 
   <table id="myTable" class="display" data-order='[[ 4, "asc" ]]'>
     <thead>
       <tr>
         <th>Title</th>
         <th>Source</th>
-        <th>Category</th>
-        <th>Tags</th>
         <th>Date</th>
       </tr>
     </thead>
+
     <tbody>
       {% set events = get_section(path="events/_index.md") %}
 
@@ -36,14 +32,13 @@
         <tr>
           <td><a href="{{ page.extra.url }}">{{ page.title }}</a></td>
           <td>{{ page.taxonomies.source | join(sep=", ") }}</td>
-          <td></td>
-          <td></td>
           <td>{{ page.extra.date.year }}-{{ monthDisplay }}-{{ dayDisplay }}</td>
         </tr>
       {% endfor %}
     </tbody>
   </table>
 
+  <div class="mt-18 mx-auto prose">{{ section.content | safe }}</div>
 
 </main>
 {% endblock body %}

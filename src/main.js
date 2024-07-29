@@ -4,8 +4,8 @@ import { Calendar } from '@fullcalendar/core';
 
 import dayGridPlugin from '@fullcalendar/daygrid';
 
-const SOURCE_COL = 1
-const DATE_COL = 2
+const SOURCE_COL = 2
+const DATE_COL = 3
 
 function isInThePast(dateString) {
   const today = new Date();

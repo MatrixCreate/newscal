@@ -22,6 +22,9 @@ function formatDate(dateStr, timeStr) {
 function createMarkdownFiles(dataArray) {
   dataArray.forEach(item => {
     const { title, date, time, source, url } = item;
+    const description = item.description
+      ? item.description.replace(':', '-')
+      : ''
     const dateInfo = formatDate(date, time);
     const slugifiedTitle = slugify(title, { lower: true, remove: /[*+~.()'"!:@]/g })
       .replace('/', '-')
@@ -50,6 +53,7 @@ taxonomies:
 
 extra:
   url: ${url}
+  description: ${description}
   date: {
     day: ${dateInfo.day},
     month: ${dateInfo.month},
@@ -57,7 +61,7 @@ extra:
     timePart: "${dateInfo.timePart}",
     utc: ${dateInfo.utc},
     allDay: ${dateInfo.allDay},
-    allMonth: ${item.allMonth}
+    allMonth: ${item.allMonth},
   }
 ---
 `;

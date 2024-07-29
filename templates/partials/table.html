@@ -46,6 +46,7 @@
   <thead>
     <tr>
       <th>Title</th>
+      <th>Description</th>
       <th>Source</th>
       <th>Date</th>
     </tr>
@@ -66,6 +67,7 @@
 
       <tr>
         <td><a href="{{ page.extra.url }}">{{ page.title }}</a></td>
+        <td>{% if page.extra.description %}{{ page.extra.description }}{% endif %}</td>
         <td>{{ page.taxonomies.source | join(sep=", ") }}</td>
         <td>{{ page.extra.date.year }}-{{ monthDisplay }}-{{ dayDisplay }}</td>
       </tr>

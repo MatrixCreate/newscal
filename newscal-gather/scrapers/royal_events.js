@@ -34,14 +34,22 @@ const getRoyalEvents = async () => {
           );
           const date = new Date(dateElement.getAttribute("datetime"));
 
+          const year = date.getFullYear();
+          const month = String(date.getMonth() + 1).padStart(2, '0');
+          const day = String(date.getDate()).padStart(2, '0');
+
+          const hours = String(date.getHours()).padStart(2, '0');
+          const minutes = String(date.getMinutes()).padStart(2, '0');
+
+          const formattedDate = `${year}-${month}-${day}`;
+          const formattedTime = `${hours}:${minutes}`;
           return {
             title,
             description,
-            date: {
-              day: date.getUTCDate(),
-              month: date.getUTCMonth() + 1,
-              year: date.getUTCFullYear(),
-            },
+            date: formattedDate,
+            time: formattedTime,
+            source: "Royal Events",
+            url: 'https://www.royal.uk/media-centre/future-engagements',
           };
         });
       });
@@ -68,4 +76,4 @@ const getRoyalEvents = async () => {
   return allEvents;
 };
 
-module.exports = getRoyalEvents;
+module.exports.getRoyalEvents = getRoyalEvents;

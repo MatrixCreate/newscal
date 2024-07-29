@@ -2,7 +2,8 @@
 title: "Crime in England and Wales: year ending June 2024"
 
 taxonomies:
-  source: ONS
+  source:
+    - ONS
 
 extra:
   url: https://www.ons.gov.uk/releases/crimeinenglandandwalesyearendingjune2024

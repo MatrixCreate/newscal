@@ -1,0 +1,16 @@
+{% extends "layout.html" %} {% block title %}{{ config.title }}{% endblock title %}
+
+{% block head %} {{ super() }} {% endblock head %}
+
+{% block body %}
+
+<main class="p-4 lg:p-8">
+  <h1 class="font-bold text-4xl mb-4">{{ config.title }}</h1>
+
+  <!-- <div class="editor" id="editor"></div> -->
+  <div class="page-content">{{ page.content | safe }}</div>
+
+  <div class="calendar"></div>
+</main>
+{% endblock body %}
+

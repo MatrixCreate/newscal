@@ -27,6 +27,8 @@
     "@milkdown/preset-commonmark": "^7.3.6",
     "@milkdown/theme-nord": "^7.3.6",
     "@toast-ui/editor": "^3.2.2",
+    "datatables.net-dt": "^2.1.2",
+    "datatables.net-responsive-dt": "^3.0.2",
     "woofmark": "^4.2.6"
   }
 }

@@ -1,9 +1,14 @@
-{% extends "layout.html" %} {% block title %}{{ config.title }}{% endblock title
-%} {% block head %} {{ super() }} {% endblock head %} {% block body %}
+{% extends "layout.html" %} {% block title %}{{ config.title }}{% endblock title %}
+
+{% block head %} {{ super() }} {% endblock head %}
+
+{% block body %}
+
 <main class="mx-auto container pt-10">
   <h1 class="font-bold text-4xl mb-4">{{ config.title }}</h1>
 
   <!-- <div class="editor" id="editor"></div> -->
+  <div class="page-content">{{ section.content | safe }}</div>
 
   <table id="myTable" class="display" data-order='[[ 4, "asc" ]]'>
     <thead>
@@ -39,6 +44,6 @@
     </tbody>
   </table>
 
-  <div class="page-content">{{ section.content | safe }}</div>
+
 </main>
 {% endblock body %}

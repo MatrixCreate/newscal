@@ -23,6 +23,22 @@
 
     <!-- <script src="https://cdn.datatables.net/2.1.2/js/dataTables.js"></script> -->
 
+    {% set events = get_section(path="events/_index.md") %}
+
+    <script>
+      window.calEvents = [
+      {% for page in events.pages -%}
+        {
+          title : `{{ page.title }}`,
+          start: new Date({{ page.extra.date.utc }}),
+          end: new Date({{ page.extra.date.utc + 1800000}}),
+          source: `{{page.taxonomies.source | join(sep=", ")}}`,
+          display: 'block',
+          backgroundColor: `{{page.taxonomies.source[0]}}` == "ONS" ? "#A8BD3A" : "#41B6E6",
+        },
+      {%- endfor -%}
+      ];
+    </script>
     <script src="/main.js"></script>
   {% endblock head %}
 

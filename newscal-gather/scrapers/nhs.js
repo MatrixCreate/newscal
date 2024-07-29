@@ -1,14 +1,10 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
-const proxies  = require('../proxies')
 
 const baseUrl = 'https://digital.nhs.uk/search/publicationStatus/false?searchTab=data&sort=date&publiclyAccessible=false&r61_r1:page=';
 const pageSize = 10;
 
-
 async function fetchPage(pageNumber) {
-  const randomProxy = proxies[Math.floor(Math.random() * proxies.length)];
-
   try {
     const response = await axios.get(`${baseUrl}${pageNumber}&r61_r1:pageSize=${pageSize}`);
     return response.data;

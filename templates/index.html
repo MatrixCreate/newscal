@@ -7,36 +7,7 @@
 <main class="p-4 lg:p-8">
   <h1 class="font-bold text-4xl mb-4">{{ config.title }}</h1>
 
-  <table id="myTable" class="display" data-order='[[ 4, "asc" ]]'>
-    <thead>
-      <tr>
-        <th>Title</th>
-        <th>Source</th>
-        <th>Date</th>
-      </tr>
-    </thead>
-
-    <tbody>
-      {% set events = get_section(path="events/_index.md") %}
-
-      {% for page in events.pages %}
-        {% set monthDisplay = page.extra.date.month %}
-        {% set dayDisplay = page.extra.date.day %}
-        {% if (page.extra.date.month~"" | length == 1) %}
-          {% set monthDisplay = "0"~page.extra.date.month%}
-        {% endif %}
-        {% if page.extra.date.day~"" | length == 1 %}
-          {% set dayDisplay = "0"~page.extra.date.day%}
-        {% endif %}
-
-        <tr>
-          <td><a href="{{ page.extra.url }}">{{ page.title }}</a></td>
-          <td>{{ page.taxonomies.source | join(sep=", ") }}</td>
-          <td>{{ page.extra.date.year }}-{{ monthDisplay }}-{{ dayDisplay }}</td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+  {% include "partials/table.html" %}
 
   <div class="mt-18 mx-auto prose">{{ section.content | safe }}</div>
 

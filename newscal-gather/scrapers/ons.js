@@ -49,7 +49,7 @@ function formatDate(dateStr) {
 
 async function getOnsEvents() {
   let allResults = [];
-  while (hasMorePages && page <= 3) {
+  while (hasMorePages && page < 50) {
     const url = `${baseUrl}?highlight=true&limit=10&page=${page}&release-type=type-upcoming&sort=date-newest`;
     const results = await scrapePage(url);
     if (results.length === 0) {
@@ -64,4 +64,6 @@ async function getOnsEvents() {
   return allResults
 }
 
-getOnsEvents();
+//getOnsEvents();
+
+module.exports.getOnsEvents = getOnsEvents

@@ -5,27 +5,31 @@ const slugify = require('slugify');
 // Function to format date and time
 function formatDate(dateStr, timeStr) {
   const [year, month, day] = dateStr.split('-').map(Number);
-  const [hour, minute] = timeStr.split(':').map(Number);
+  const [hour, minute] = timeStr ? timeStr.split(':').map(Number) : [9, 0]; // Default to 9 AM if timeStr is not provided
   const date = new Date(year, month - 1, day, hour, minute);
 
   return {
     day,
     month,
     year,
-    timePart: timeStr,
-    utc: date.getTime()
+    timePart: timeStr || '09:00', // Default to 09:00 if timeStr is not provided
+    utc: date.getTime(),
+    allDay: !timeStr // Set allDay to true if timeStr is not provided
   };
 }
 
 // Function to create Markdown files
 function createMarkdownFiles(dataArray) {
   dataArray.forEach(item => {
-    const { title, date, time, source } = item;
+    const { title, date, time, source, url } = item;
     const dateInfo = formatDate(date, time);
-    const slugifiedTitle = slugify(title, { lower: true, remove: /[*+~.()'"!:@]/g });
+    const slugifiedTitle = slugify(title, { lower: true, remove: /[*+~.()'"!:@]/g })
+      .replace('/', '-')
+      .replace(',', '')
+      .replace(':', '');
 
     // Create the filename in the format 'slugified-title-YYYY-MM-DD.md'
-    const filename = `${slugifiedTitle}-${dateInfo.year}-${String(dateInfo.month).padStart(2, '0')}-${String(dateInfo.day).padStart(2, '0')}.md`;
+    const filename = `${slugifiedTitle}-${dateInfo.year}-${String(dateInfo.month).padStart(2, '0')}-${String(dateInfo.day).padStart(2, '0')}.md`.replace(',', '');
 
     // Define the file path in the 'events' directory
     const dir = path.join(__dirname, '../content/events');
@@ -44,12 +48,15 @@ taxonomies:
   source: ${source}
 
 extra:
+  url: ${url}
   date: {
     day: ${dateInfo.day},
     month: ${dateInfo.month},
     year: ${dateInfo.year},
     timePart: "${dateInfo.timePart}",
-    utc: ${dateInfo.utc}
+    utc: ${dateInfo.utc},
+    allDay: ${dateInfo.allDay},
+    allMonth: ${item.allMonth}
   }
 ---
 `;
@@ -64,6 +71,5 @@ extra:
     console.log(`File created: ${filePath}`);
   });
 }
-
 
 module.exports.createMarkdownFiles = createMarkdownFiles

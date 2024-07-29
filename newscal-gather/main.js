@@ -12,4 +12,6 @@ const { getOnsEvents } = require('./scrapers/ons');
   const nhsEvents = await getNHSEvents();
   const onsEvents = await getOnsEvents();
   const all = [...nhsEvents, ...onsEvents]
+
+  createMarkdownFiles(all)
 })()

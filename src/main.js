@@ -4,12 +4,47 @@ import { Calendar } from '@fullcalendar/core';
 
 import dayGridPlugin from '@fullcalendar/daygrid';
 
+const SOURCE_COL = 1
+const DATE_COL = 2
+
+function isInThePast(dateString) {
+  const today = new Date();
+  today.setHours(0, 0, 0, 0); // Reset time to 00:00:00
+
+  const year = dateString.split('-')[0]
+  const inputDate = new Date(dateString + 'T00:00:00'); // Parse input date
+  if (year == '2023') {
+    console.log(inputDate < today)
+  }
+
+  return inputDate < today; // Compare dates
+}
+
 
 window.addEventListener('DOMContentLoaded', () => {
   if (document.querySelector('#eventsTable')) {
     let table = new DataTable('#eventsTable', {
         responsive: true
     });
+
+    const pastEventsEl = document.querySelector('.js-past-events')
+
+    if (pastEventsEl) {
+      const updateOption = () => {
+        const shouldShowPast = pastEventsEl.checked
+        if (shouldShowPast) {
+          table.column(DATE_COL).search((text) => true).draw()
+        } else {
+          table.column(DATE_COL).search((dateStr) => !isInThePast(dateStr)).draw()
+        }
+      }
+
+      updateOption()
+
+      pastEventsEl.addEventListener('change', (e) => {
+        updateOption()
+      })
+    }
 
     const filteredSources = new Set()
 
@@ -40,7 +75,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function updateSearch(table, filteredSources) {
   table
-    .column(1)
+    .column(SOURCE_COL)
     .search(text => !filteredSources.has(text))
     .draw()
 }

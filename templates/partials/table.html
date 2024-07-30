@@ -54,6 +54,7 @@
       <th>Additional Details</th>
       <th>Source</th>
       <th>Date</th>
+      <th>Time</th>
     </tr>
   </thead>
 
@@ -75,6 +76,7 @@
         <td>{% if page.extra.description %}{{ page.extra.description }}{% endif %}</td>
         <td>{{ page.taxonomies.source | join(sep=", ") }}</td>
         <td>{{ page.extra.date.year }}-{{ monthDisplay }}-{{ dayDisplay }}</td>
+        <td>{% if page.extra.date.timePart %}{{ page.extra.date.timePart }}{% endif %}</td>
       </tr>
     {% endfor %}
   </tbody>

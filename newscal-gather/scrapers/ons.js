@@ -1,5 +1,6 @@
 const axios = require('axios');
 const cheerio = require('cheerio');
+const { convertTo24Hour } = require('../util')
 
 const baseUrl = 'https://www.ons.gov.uk/releasecalendar';
 let hasMorePages = true;
@@ -16,7 +17,7 @@ async function scrapePage(url) {
       const titleLink = item.find('a')
       const title = titleLink.data('gtm-release-title');
       const date = titleLink.data('gtm-release-date');
-      const time = titleLink.data('gtm-release-time');
+      const time = convertTo24Hour(titleLink.data('gtm-release-time'));
       const url = 'https://www.ons.gov.uk' + titleLink.attr('href')
       const allText = item.text()
 
@@ -51,7 +52,7 @@ async function getOnsEvents() {
   let allResults = [];
   while (hasMorePages && page < 50) {
     const url = `${baseUrl}?highlight=true&limit=10&page=${page}&release-type=type-upcoming&sort=date-newest`;
-    console.log('Fetching...', url)
+    // console.log('Fetching...', url)
     const results = await scrapePage(url);
     if (results.length === 0) {
       hasMorePages = false;
@@ -61,9 +62,10 @@ async function getOnsEvents() {
     }
   }
 
+  console.log(JSON.stringify(allResults))
   return allResults
 }
 
-//getOnsEvents();
+getOnsEvents();
 
 module.exports.getOnsEvents = getOnsEvents

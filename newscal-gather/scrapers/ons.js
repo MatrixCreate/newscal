@@ -51,6 +51,7 @@ async function getOnsEvents() {
   let allResults = [];
   while (hasMorePages && page < 50) {
     const url = `${baseUrl}?highlight=true&limit=10&page=${page}&release-type=type-upcoming&sort=date-newest`;
+    console.log('Fetching...', url)
     const results = await scrapePage(url);
     if (results.length === 0) {
       hasMorePages = false;
@@ -60,7 +61,6 @@ async function getOnsEvents() {
     }
   }
 
-  console.log(allResults);
   return allResults
 }
 

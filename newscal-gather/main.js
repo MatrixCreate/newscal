@@ -1,4 +1,5 @@
-const { createMarkdownFiles } = require('./saveEvents')
+const { createMarkdownFiles } = require('./saveEvents');
+const { getBankOfEnglandEvents } = require('./scrapers/bank_of_england');
 const { getNHSEvents } = require('./scrapers/nhs');
 const { getOnsEvents } = require('./scrapers/ons');
 // const { getBankOfEnglandEvents } = require('./scrapers/bank_of_england');
@@ -8,7 +9,7 @@ const { getRoyalEvents } = require('./scrapers/royal_events');
 
 (async () => {
   //const boeEvents = await getBankOfEnglandEvents()
-
+  /*
   const nhsEvents = await getNHSEvents();
   const onsEvents = await getOnsEvents();
   const royalEvents = await getRoyalEvents()
@@ -17,6 +18,9 @@ const { getRoyalEvents } = require('./scrapers/royal_events');
     ...onsEvents,
     ...royalEvents
   ]
+    */
+  const boeEvents = await getBankOfEnglandEvents()
 
-  createMarkdownFiles(all)
+  createMarkdownFiles(boeEvents)
+  // createMarkdownFiles(all)
 })()

@@ -88,7 +88,6 @@ async function getNHSEvents() {
     }
   }
 
- console.log(JSON.stringify(allResults, null, 2));
   return allResults
 }
 

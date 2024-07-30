@@ -7,20 +7,25 @@ const { getOnsEvents } = require('./scrapers/ons');
 //const getParliamentEvents = require('./scrapers/parliament')
 const { getRoyalEvents } = require('./scrapers/royal_events');
 
+const { getControlRisksEvents } = require('./scrapers/control_risks');
+
 (async () => {
   //const boeEvents = await getBankOfEnglandEvents()
   /*
   const nhsEvents = await getNHSEvents();
   const onsEvents = await getOnsEvents();
   const royalEvents = await getRoyalEvents()
+  const boeEvents = await getBankOfEnglandEvents()
+
   const all = [
     ...nhsEvents,
     ...onsEvents,
     ...royalEvents
   ]
     */
-  const boeEvents = await getBankOfEnglandEvents()
 
-  createMarkdownFiles(boeEvents)
+  const controlRisksEvents = await getControlRisksEvents()
+
+  createMarkdownFiles(controlRisksEvents)
   // createMarkdownFiles(all)
 })()

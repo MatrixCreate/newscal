@@ -37,7 +37,7 @@ function parseDate(dateStr) {
         if (parsedDate) return { ...parsedDate, info: "" };
     } else if (monthYearPattern.test(dateStr.trim())) {
         const [, month, year] = dateStr.match(monthYearPattern);
-        console.log({ month, year })
+        // console.log({ month, year })
         const parsedMonthYear = parseMonthYear(month, year);
         if (parsedMonthYear) return { ...parsedMonthYear, info: "" };
     }
@@ -68,7 +68,23 @@ async function getControlRisksEvents() {
             const $row = $(element);
             const $firstCell = $row.find('td').first();
             const dateText = $firstCell.text().trim();
-            const date = dateText ? parseDate(dateText) : '';
+            const dateParts = dateText ? parseDate(dateText) : '';
+
+            if (!dateParts.month)
+              return
+
+            const day = dateParts.day
+              ? `${dateParts.day}`.padStart(2, '0')
+              : '01'
+
+            const month = `${dateParts.month}`.padStart(2, '0')
+
+            const date = `${dateParts.year}-${month}-${day}`
+
+            let allMonth = false
+
+            if (!dateParts.day)
+              allMonth = true
 
             const $titleCell = $row.find('td').eq(1);
             const title = $titleCell.text().trim();
@@ -83,13 +99,18 @@ async function getControlRisksEvents() {
                 events.push({
                     title,
                     date,
+                    description: `${description} Location: ${location}.`,
                     location,
-                    description
+                    allDay: true,
+                    allMonth,
+                    source: "Geopolitical Calendar - Control Risks",
+                    url: 'https://www.controlrisks.com/our-thinking/geopolitical-calendar',
                 });
             }
         });
 
-        console.log(JSON.stringify(events, null, 2));
+        return events
+        // console.log(JSON.stringify(events, null, 2));
 
     } catch (error) {
         console.error('Error fetching or parsing data:', error);
@@ -97,4 +118,4 @@ async function getControlRisksEvents() {
 }
 
 
-module.exports = getControlRisksEvents
+module.exports.getControlRisksEvents = getControlRisksEvents

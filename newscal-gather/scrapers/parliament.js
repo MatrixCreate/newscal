@@ -57,16 +57,21 @@ const getParliamentEvents = async (url) => {
           ? `${year}-${monthToNumber(month)}-${day.padStart(2, '0')}`
           : '';
 
+        if (!date) {
+          return null
+        }
+
         return {
           title: finalTitle,
-          category1: category1,
-          date: date,
-          link: link
+          description: category1,
+          date,
+          url: link,
+          source: 'Parliament',
         };
       });
     });
 
-    return items;
+    return items.filter(item => !item);
   } catch (error) {
     console.error('Error fetching or processing data:', error);
   } finally {
@@ -76,6 +81,6 @@ const getParliamentEvents = async (url) => {
 };
 
 (async () => {
-  const events = await getParliamentEvents(url);
-  console.log(events);
+  // const events = await getParliamentEvents(url);
+  // console.log(events);
 })();

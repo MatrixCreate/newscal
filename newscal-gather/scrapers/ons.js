@@ -66,6 +66,6 @@ async function getOnsEvents() {
   return allResults
 }
 
-getOnsEvents();
+// getOnsEvents();
 
 module.exports.getOnsEvents = getOnsEvents

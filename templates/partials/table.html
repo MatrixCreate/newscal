@@ -1,4 +1,4 @@
-{% set sources = get_taxonomy(kind="source") %}
+{% set sources = load_data(path="content/events/sources.json") %}
 
 <!-- Filters -->
 <h2 class="text-lg font-bold mb-4">Filters</h2>
@@ -8,13 +8,13 @@
       <input type="checkbox" />
       <div class="collapse-title text-lg font-medium">Sources</div>
       <div class="collapse-content">
-        {% for source in sources.items %}
-        {% set name = source.name %}
+        {% for source in sources %}
+        {% set name = source %}
         {% set isChecked = name == "NHS" or name == "ONS" %}
         <div class="form-control">
           <label class="label cursor-pointer">
-            <span class="label-text">{{ source.name }}</span>
-            <input value="{{ source.name }}"
+            <span class="label-texkt">{{ source }}</span>
+            <input value="{{ source }}"
                   type="checkbox"
                   {% if isChecked -%}
                   checked="checked"
@@ -59,26 +59,17 @@
   </thead>
 
   <tbody>
-    {% set events = get_section(path="events/_index.md") %}
+    {% set events = load_data(path="content/events/events.json") %}
 
-    {% for page in events.pages %}
-      {% set monthDisplay = page.extra.date.month %}
-      {% set dayDisplay = page.extra.date.day %}
-      {% if (page.extra.date.month~"" | length == 1) %}
-        {% set monthDisplay = "0"~page.extra.date.month%}
-      {% endif %}
-      {% if page.extra.date.day~"" | length == 1 %}
-        {% set dayDisplay = "0"~page.extra.date.day%}
-      {% endif %}
-
+    {% for event in events %}
       <tr>
-        <td><a href="{{ page.extra.url }}">{{ page.title }}</a></td>
-        <td>{% if page.extra.description %}{{ page.extra.description }}{% endif %}</td>
-        <td>{{ page.taxonomies.source | join(sep=", ") }}</td>
-        <td>{{ page.extra.date.year }}-{{ monthDisplay }}-{{ dayDisplay }}</td>
+        <td><a href="{{ event.url }}">{{ event.title }}</a></td>
+        <td>{% if event.description %}{{ event.description }}{% endif %}</td>
+        <td>{{ event.source }}</td>
+        <td>{{ event.date }} </td>
         <td>
-          {%- if page.extra.date.timePart and not page.extra.date.allDay -%}
-            {{- page.extra.date.timePart -}}
+          {%- if event.time and not event.allDay -%}
+            {{- event.time -}}
           {%- else -%}
             N/A
           {%- endif -%}

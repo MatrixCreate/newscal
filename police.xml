@@ -1,0 +1,275 @@
+<Legislation xmlns="http://www.legislation.gov.uk/namespaces/legislation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836" NumberOfProvisions="3" xsi:schemaLocation="http://www.legislation.gov.uk/namespaces/legislation http://www.legislation.gov.uk/schema/legislation.xsd" SchemaVersion="1.0"><ukm:Metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata">
+					<dc:identifier>http://www.legislation.gov.uk/uksi/2024/836/made</dc:identifier><dc:title>The Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) (Amendment) Order 2024</dc:title><dc:language>en</dc:language><dc:publisher>King's Printer of Acts of Parliament</dc:publisher><dc:modified>2024-07-31</dc:modified><dc:subject scheme="SIheading">POLICE, ENGLAND AND WALES</dc:subject>
+					<dc:description>This Order amends the Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) Order 2024 (S.I. 2024/186) (“the 2024 Order”).</dc:description>
+					<atom:link rel="self" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.xml" type="application/xml"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/resources" href="http://www.legislation.gov.uk/uksi/2024/836/resources" title="More Resources"/>
+					
+					
+					
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/act" href="http://www.legislation.gov.uk/uksi/2024/836/made" title="whole act"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/introduction" href="http://www.legislation.gov.uk/uksi/2024/836/introduction/made" title="introduction"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/signature" href="http://www.legislation.gov.uk/uksi/2024/836/signature/made" title="signature"/><atom:link rel="http://www.legislation.gov.uk/def/navigation/note" href="http://www.legislation.gov.uk/uksi/2024/836/note/made" title="note"/>
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/body" href="http://www.legislation.gov.uk/uksi/2024/836/body/made" title="body"/>
+					<atom:link rel="http://www.legislation.gov.uk/def/navigation/schedules" href="http://www.legislation.gov.uk/uksi/2024/836/schedules/made" title="schedules"/>
+					
+										
+					
+					
+					<atom:link rel="alternate" type="application/rdf+xml" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.rdf" title="RDF/XML"/><atom:link rel="alternate" type="application/akn+xml" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.akn" title="AKN"/><atom:link rel="alternate" type="application/xhtml+xml" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.xht" title="HTML snippet"/><atom:link rel="alternate" type="text/html" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.htm" title="Website (XHTML) Default View"/><atom:link rel="alternate" type="application/pdf" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.pdf" title="PDF"/>
+					<atom:link rel="alternate" type="application/akn+xhtml" href="http://www.legislation.gov.uk/uksi/2024/836/made/data.html" title="HTML5 snippet"/>
+
+					<atom:link rel="alternate" href="http://www.legislation.gov.uk/uksi/2024/836/pdfs/uksi_20240836_en.pdf" type="application/pdf" title="Original PDF"/>
+					<atom:link rel="http://purl.org/dc/terms/tableOfContents" hreflang="en" href="http://www.legislation.gov.uk/uksi/2024/836/contents/made" title="Table of Contents"/>
+					
+					
+					
+					
+					<ukm:SecondaryMetadata><ukm:DocumentClassification>
+<ukm:DocumentCategory Value="secondary"/>
+<ukm:DocumentMainType Value="UnitedKingdomStatutoryInstrument"/>
+<ukm:DocumentStatus Value="final"/>
+<ukm:DocumentMinorType Value="order"/>
+</ukm:DocumentClassification><ukm:Year Value="2024"/><ukm:Number Value="836"/><ukm:Made Date="2024-07-29"/><ukm:ComingIntoForce>
+<ukm:DateTime Date="2024-07-30"/>
+</ukm:ComingIntoForce><ukm:ISBN Value="9780348262803"/></ukm:SecondaryMetadata>
+					
+
+                    
+									 
+					<ukm:Alternatives><ukm:Alternative URI="http://www.legislation.gov.uk/uksi/2024/836/pdfs/uksi_20240836_en.pdf" Date="2024-07-31" Size="41369" Print="true"/></ukm:Alternatives>
+					
+					<ukm:Statistics>
+									<ukm:TotalParagraphs Value="3"/>
+									<ukm:BodyParagraphs Value="3"/>
+									<ukm:ScheduleParagraphs Value="0"/>
+									<ukm:AttachmentParagraphs Value="0"/>
+									<ukm:TotalImages Value="0"/>
+								</ukm:Statistics>
+				</ukm:Metadata><Secondary>
+<SecondaryPrelims DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/introduction/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/introduction">
+<Number>2024 No. 836</Number>
+<SubjectInformation>
+<Subject>
+<Title>Police, England And Wales</Title>
+</Subject>
+</SubjectInformation>
+<Title>The Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) (Amendment) Order 2024</Title>
+<MadeDate>
+<Text>Made</Text>
+<DateText>29th July 2024</DateText>
+</MadeDate>
+<ComingIntoForce>
+<Text>Coming into force</Text>
+<DateText>30th July 2024</DateText>
+</ComingIntoForce>
+<SecondaryPreamble>
+<IntroductoryText>
+<P>
+<Text>The Secretary of State makes this Order in exercise of the powers conferred by sections 54(1)(b) and 154(5)(a) and (b) of the Police Reform and Social Responsibility Act 2011<FootnoteRef Ref="f00001"/>.</Text>
+</P>
+</IntroductoryText>
+<EnactingText>
+<Para>
+<Text>The Secretary of State has consulted the Electoral Commission in accordance with section 7(1) and (2)(ha) of the Political Parties, Elections and Referendums Act 2000<FootnoteRef Ref="f00002"/>.</Text>
+</Para>
+</EnactingText>
+</SecondaryPreamble>
+</SecondaryPrelims>
+<Body DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/body/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/body" NumberOfProvisions="3">
+<P1group>
+<Title>Citation, commencement and interpretation</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/1" id="article-1">
+<Pnumber>1</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/1/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/1/1" id="article-1-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>This Order may be cited as the Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) (Amendment) Order 2024.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/1/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/1/2" id="article-1-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>This Order comes into force on the day after the day on which it is made.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/1/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/1/3" id="article-1-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In this Order “<Term id="term-the-2024-order">the 2024 Order</Term>” means the Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) Order 2024<FootnoteRef Ref="f00003"/>.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Amendment of the Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) Order 2024</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/2" id="article-2">
+<Pnumber>2</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/2/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/2/1" id="article-2-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>The 2024 Order is amended as follows.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/2/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/2/2" id="article-2-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>In Article 1(4), in the definition of “police area”, after “North Yorkshire” insert <InlineAmendment>“, South Yorkshire<FootnoteRef Ref="f00004"/>”</InlineAmendment>.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/2/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/2/3" id="article-2-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>For the table in Schedule 3 (designated police area returning officers in England) substitute the table in Schedule 1 to this Order.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/2/4/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/2/4" id="article-2-4">
+<Pnumber>4</Pnumber>
+<P2para>
+<Text>For the table in Schedule 4 (designated police area returning officers in Wales) substitute the table in Schedule 2 to this Order.</Text>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<P1group>
+<Title>Validity of things done and continuity of charges incurred</Title>
+<P1 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/3" id="article-3">
+<Pnumber>3</Pnumber>
+<P1para>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/3/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/3/1" id="article-3-1">
+<Pnumber>1</Pnumber>
+<P2para>
+<Text>This Order does not affect the validity of anything done by or in relation to a police area returning officer designated by the 2024 Order before the coming into force of this Order.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/3/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/3/2" id="article-3-2">
+<Pnumber>2</Pnumber>
+<P2para>
+<Text>Any charges incurred for specified services or specified expenses by a police area returning officer designated for a police area by the 2024 Order before the coming into force of this Order are to be treated as having been incurred by the police area returning officer who is designated for the same police area following the coming into force of this Order for the purpose of each maximum recoverable amount for that police area.</Text>
+</P2para>
+</P2>
+<P2 DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/article/3/3/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/article/3/3" id="article-3-3">
+<Pnumber>3</Pnumber>
+<P2para>
+<Text>In this article—</Text>
+<UnorderedList Class="Definition" Decoration="none">
+<ListItem>
+<Para>
+<Text>“<Term id="term-maximum-recoverable-amount">maximum recoverable amount</Term>” means the amount specified in, as the case may be, column (2), (3) or (4) of the table in Schedule 3 to the Police and Crime Commissioner Elections (Local Returning Officers’ and Police Area Returning Officers’ Charges) Order 2024<FootnoteRef Ref="f00005"/>;</Text>
+</Para>
+</ListItem>
+<ListItem>
+<Para>
+<Text>“<Term id="term-specified-services">specified services</Term>” and “<Term id="term-specified-expenses">specified expenses</Term>” have the same meaning as in Article 3 of the Police and Crime Commissioner Elections (Local Returning Officers’ and Police Area Returning Officers’ Charges) Order 2024.</Text>
+</Para>
+</ListItem>
+</UnorderedList>
+</P2para>
+</P2>
+</P1para>
+</P1>
+</P1group>
+<SignedSection DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/signature/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/signature">
+<Signatory>
+<Para>
+<Text>Signed by authority of the Secretary of State for Housing, Communities and Local Government</Text>
+</Para>
+<Signee>
+<PersonName>Alex Norris</PersonName>
+<JobTitle>Parliamentary Under Secretary of State</JobTitle>
+<Department>Ministry of Housing, Communities and Local Government</Department>
+<DateSigned Date="2024-07-29">
+<DateText>29th July 2024</DateText>
+</DateSigned>
+</Signee>
+</Signatory>
+</SignedSection>
+</Body>
+<Schedules>
+<Schedule DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/schedule/1/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/schedule/1" id="schedule-1">
+<Number>SCHEDULE 1</Number>
+<TitleBlock>
+<Title>Designated police area returning officers in England</Title>
+</TitleBlock>
+<Reference>Article 2(3)</Reference>
+<ScheduleBody>
+<Tabular Orientation="portrait">
+<table xmlns="http://www.w3.org/1999/xhtml" cols="2">
+<colgroup><col width="213.2pt"/><col width="213.2pt"/></colgroup>
+<thead><tr><th xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-top-width="0.5pt" fo:border-bottom-width="0.5pt" rowspan="1" fo:border-top-color="black" fo:border-bottom-color="black" fo:border-top-style="solid">(1) Name of police area</th><th xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-top-width="0.5pt" fo:border-bottom-width="0.5pt" rowspan="1" fo:border-top-color="black" fo:border-bottom-color="black" fo:border-top-style="solid">(2) Parliamentary constituency</th></tr></thead>
+<tbody><tr><td colspan="1" rowspan="1">Avon and Somerset</td><td colspan="1" rowspan="1">Bath</td></tr><tr><td colspan="1" rowspan="1">Bedfordshire</td><td colspan="1" rowspan="1">Luton South and South Bedfordshire</td></tr><tr><td colspan="1" rowspan="1">Cambridgeshire</td><td colspan="1" rowspan="1">Ely and East Cambridgeshire</td></tr><tr><td colspan="1" rowspan="1">Cheshire</td><td colspan="1" rowspan="1">Widnes and Halewood</td></tr><tr><td colspan="1" rowspan="1">Cleveland</td><td colspan="1" rowspan="1">Stockton North</td></tr><tr><td colspan="1" rowspan="1">Cumbria</td><td colspan="1" rowspan="1">Whitehaven and Workington</td></tr><tr><td colspan="1" rowspan="1">Derbyshire</td><td colspan="1" rowspan="1">Derby North</td></tr><tr><td colspan="1" rowspan="1">Devon and Cornwall</td><td colspan="1" rowspan="1">Plymouth Moor View</td></tr><tr><td colspan="1" rowspan="1">Dorset</td><td colspan="1" rowspan="1">Bournemouth East</td></tr><tr><td colspan="1" rowspan="1">Durham</td><td colspan="1" rowspan="1">Bishop Auckland</td></tr><tr><td colspan="1" rowspan="1">Essex</td><td colspan="1" rowspan="1">Colchester</td></tr><tr><td colspan="1" rowspan="1">Gloucestershire</td><td colspan="1" rowspan="1">Gloucester</td></tr><tr><td colspan="1" rowspan="1">Hampshire and Isle of Wight</td><td colspan="1" rowspan="1">Southampton Test</td></tr><tr><td colspan="1" rowspan="1">Hertfordshire</td><td colspan="1" rowspan="1">Broxbourne</td></tr><tr><td colspan="1" rowspan="1">Humberside</td><td colspan="1" rowspan="1">Beverley and Holderness</td></tr><tr><td colspan="1" rowspan="1">Kent</td><td colspan="1" rowspan="1">Gravesham</td></tr><tr><td colspan="1" rowspan="1">Lancashire</td><td colspan="1" rowspan="1">Blackburn</td></tr><tr><td colspan="1" rowspan="1">Leicestershire</td><td colspan="1" rowspan="1">Leicester West</td></tr><tr><td colspan="1" rowspan="1">Lincolnshire</td><td colspan="1" rowspan="1">Lincoln</td></tr><tr><td colspan="1" rowspan="1">Merseyside</td><td colspan="1" rowspan="1">Liverpool Riverside</td></tr><tr><td colspan="1" rowspan="1">Norfolk</td><td colspan="1" rowspan="1">Broadland and Fakenham</td></tr><tr><td colspan="1" rowspan="1">Northamptonshire</td><td colspan="1" rowspan="1">Northampton North</td></tr><tr><td colspan="1" rowspan="1">Northumbria</td><td colspan="1" rowspan="1">Sunderland Central</td></tr><tr><td colspan="1" rowspan="1">Nottinghamshire</td><td colspan="1" rowspan="1">Rushcliffe</td></tr><tr><td colspan="1" rowspan="1">Staffordshire</td><td colspan="1" rowspan="1">Burton and Uttoxeter</td></tr><tr><td colspan="1" rowspan="1">Suffolk</td><td colspan="1" rowspan="1">West Suffolk</td></tr><tr><td colspan="1" rowspan="1">Surrey</td><td colspan="1" rowspan="1">Reigate</td></tr><tr><td colspan="1" rowspan="1">Sussex</td><td colspan="1" rowspan="1">Brighton Pavilion</td></tr><tr><td colspan="1" rowspan="1">Thames Valley</td><td colspan="1" rowspan="1">Newbury</td></tr><tr><td colspan="1" rowspan="1">Warwickshire</td><td colspan="1" rowspan="1">North Warwickshire and Bedworth</td></tr><tr><td colspan="1" rowspan="1">West Mercia</td><td colspan="1" rowspan="1">The Wrekin</td></tr><tr><td colspan="1" rowspan="1">West Midlands</td><td colspan="1" rowspan="1">Coventry South</td></tr><tr><td xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-bottom-color="black" fo:border-bottom-width="0.5pt" rowspan="1">Wiltshire</td><td xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-bottom-color="black" fo:border-bottom-width="0.5pt" rowspan="1">Salisbury</td></tr></tbody>
+</table>
+</Tabular>
+</ScheduleBody>
+</Schedule>
+<Schedule DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/schedule/2/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/schedule/2" id="schedule-2">
+<Number>SCHEDULE 2</Number>
+<TitleBlock>
+<Title>Designated police area returning officers in Wales</Title>
+</TitleBlock>
+<Reference>Article 2(4)</Reference>
+<ScheduleBody>
+<Tabular Orientation="portrait">
+<table xmlns="http://www.w3.org/1999/xhtml" cols="2">
+<colgroup><col width="210.5pt"/><col width="210.5pt"/></colgroup>
+<thead><tr><th xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-top-width="0.5pt" fo:border-bottom-width="0.5pt" rowspan="1" fo:border-top-color="black" fo:border-bottom-color="black" fo:border-top-style="solid">(1) Name of police area</th><th xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-top-width="0.5pt" fo:border-bottom-width="0.5pt" rowspan="1" fo:border-top-color="black" fo:border-bottom-color="black" fo:border-top-style="solid">(2) Parliamentary constituency</th></tr></thead>
+<tbody><tr><td colspan="1" rowspan="1">Dyfed Powys</td><td colspan="1" rowspan="1">Ceredigion Preseli</td></tr><tr><td colspan="1" rowspan="1">Gwent</td><td colspan="1" rowspan="1">Caerphilly</td></tr><tr><td colspan="1" rowspan="1">North Wales</td><td colspan="1" rowspan="1">Wrexham</td></tr><tr><td xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-bottom-color="black" fo:border-bottom-width="0.5pt" rowspan="1">South Wales</td><td xmlns:fo="http://www.w3.org/1999/XSL/Format" colspan="1" fo:border-bottom-style="solid" fo:border-bottom-color="black" fo:border-bottom-width="0.5pt" rowspan="1">Aberafan Maesteg</td></tr></tbody>
+</table>
+</Tabular>
+</ScheduleBody>
+</Schedule>
+</Schedules>
+<ExplanatoryNotes DocumentURI="http://www.legislation.gov.uk/uksi/2024/836/note/made" IdURI="http://www.legislation.gov.uk/id/uksi/2024/836/note">
+<Title>EXPLANATORY NOTE</Title>
+<Comment>
+<Para>
+<Text>(This note is not part of the Order)</Text>
+</Para>
+</Comment>
+<P>
+<Text>This Order amends the Police and Crime Commissioner Elections (Designation of Local Authorities and Police Area Returning Officers) Order 2024 (<Citation URI="http://www.legislation.gov.uk/id/uksi/2024/186" id="c00001" Year="2024" Number="186" Class="UnitedKingdomStatutoryInstrument">S.I. 2024/186</Citation>) (“<Term>the 2024 Order</Term>”).</Text>
+</P>
+<P>
+<Text>The 2024 Order designates, under section 54(1)(b) of the Police Reform and Social Responsibility Act <Citation URI="http://www.legislation.gov.uk/id/ukpga/2011/13" id="c00002" Year="2011" Number="13" Class="UnitedKingdomPublicGeneralAct">2011 (c. 13)</Citation>, the persons who are to be the returning officers for police and crime commissioner elections in the police areas named in Schedules 3 and 4 to that Order.</Text>
+</P>
+<P>
+<Text>Article 2 of this Order amends the 2024 Order to reflect changes to the parliamentary constituencies following the Parliamentary Constituencies Order 2023 (<Citation URI="http://www.legislation.gov.uk/id/uksi/2023/1230" id="c00003" Year="2023" Number="1230" Class="UnitedKingdomStatutoryInstrument">S.I. 2023/1230</Citation>), which takes effect fully on the dissolution of parliament on 30th May 2024.</Text>
+</P>
+<P>
+<Text>Article 3 provides that this Order does not affect the validity of anything done by or in relation to a police area returning officer designated by the 2024 Order before the coming into force of this Order. It also provides that any charges incurred before this Order came into force for specified services or specified expenses by a police area returning officer designated by the 2024 Order are to be treated as having been incurred by the police area returning officer designated for the same police area following the coming into force of this Order for the purpose of each maximum recoverable amount for that police area.</Text>
+</P>
+<P>
+<Text>An impact assessment has not been produced for this instrument as no, or no significant, impact on the private voluntary or public sectors is foreseen.</Text>
+</P>
+</ExplanatoryNotes>
+</Secondary><Footnotes><Footnote id="f00001">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/2011/13" id="c00004" Year="2011" Number="13" Class="UnitedKingdomPublicGeneralAct">2011 c. 13</Citation>; section 54(1)(b) was amended by <Citation URI="http://www.legislation.gov.uk/id/uksi/2015/1376" id="c00005" Year="2015" Number="1376" Class="UnitedKingdomStatutoryInstrument">S.I. 2015/1376</Citation>, <Citation URI="http://www.legislation.gov.uk/id/uksi/2016/997" id="c00006" Year="2016" Number="997" Class="UnitedKingdomStatutoryInstrument">2016/997</Citation> and <Citation URI="http://www.legislation.gov.uk/id/uksi/2021/1265" id="c00007" Year="2021" Number="1265" Class="UnitedKingdomStatutoryInstrument">2021/1265</Citation>. Section 154(5) was amended by <Citation URI="http://www.legislation.gov.uk/id/uksi/2014/268" id="c00008" Year="2014" Number="268" Class="UnitedKingdomStatutoryInstrument">S.I. 2014/268</Citation> and <Citation URI="http://www.legislation.gov.uk/id/uksi/2021/1265" id="c00009" Year="2021" Number="1265" Class="UnitedKingdomStatutoryInstrument">2021/1265</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00002">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/ukpga/2000/41" id="c00010" Year="2000" Number="41" Class="UnitedKingdomPublicGeneralAct">2000 c. 41</Citation>. Section 7(2)(ha) was inserted by paragraph 11 of Schedule 10 to the Police Reform and Social Responsibility Act 2011.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00003">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/uksi/2024/186" id="c00011" Year="2024" Number="186" Class="UnitedKingdomStatutoryInstrument">S.I. 2024/186</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00004">
+<FootnoteText>
+<Para>
+<Text>The functions of a police and crime commissioner in respect of South Yorkshire have been transferred to the mayor of the South Yorkshire Combined Authority by <Citation URI="http://www.legislation.gov.uk/id/uksi/2024/414" id="c00012" Year="2024" Number="414" Class="UnitedKingdomStatutoryInstrument">S.I. 2024/414</Citation>. See paragraph 21(b) and (d) of Schedule 2, the effect of which is to remove the requirement to designate both a police area returning officer under section 54(1)(b) of the 2011 Act and a local authority for the purposes of section 75(1) of that Act in respect of the South Yorkshire Combined Authority.</Text>
+</Para>
+</FootnoteText>
+</Footnote><Footnote id="f00005">
+<FootnoteText>
+<Para>
+<Text><Citation URI="http://www.legislation.gov.uk/id/uksi/2024/297" id="c00013" Year="2024" Number="297" Class="UnitedKingdomStatutoryInstrument">S.I. 2024/297</Citation>.</Text>
+</Para>
+</FootnoteText>
+</Footnote></Footnotes></Legislation>

@@ -1,10 +1,7 @@
 const { chromium } = require('playwright');
 const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
 
-// URL to fetch data from
-const url = 'https://whatson.parliament.uk/events/commons/thisweek/';
-
-const getParliamentEvents = async (url) => {
+const getParliamentEventsForUrl = async (url) => {
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({ userAgent, bypassCSP: true });
 
@@ -74,13 +71,18 @@ const getParliamentEvents = async (url) => {
     return items.filter(item => !item);
   } catch (error) {
     console.error('Error fetching or processing data:', error);
+    return []
   } finally {
     await context.close();
     await browser.close();
   }
 };
 
-(async () => {
-  // const events = await getParliamentEvents(url);
-  // console.log(events);
-})();
+// URL to fetch data from
+const url = 'https://whatson.parliament.uk/events/commons/thisweek/';
+
+async function getParliamentEvents() {
+  return getParliamentEventsForUrl(url)
+}
+
+module.exports.getParliamentEvents = getParliamentEvents

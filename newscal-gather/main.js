@@ -5,27 +5,42 @@ const { getOnsEvents } = require('./scrapers/ons');
 const { getControlRisksEvents } = require('./scrapers/control_risks');
 const { getParliamentEvents } = require('./scrapers/parliament');
 const { getRoyalEvents } = require('./scrapers/royal_events');
+const { extractSources } = require('./extract-sources');
+
+const fetchEventsSafely = async (fetchFunction) => {
+  try {
+    return await fetchFunction();
+  } catch (error) {
+    console.error(`Failed to fetch events: ${error.message}`);
+    return [];
+  }
+};
 
 (async () => {
-  const boeEvents = await getBankOfEnglandEvents();
-  const nhsEvents = await getNHSEvents();
-  // const onsEvents = await getOnsEvents();
-  const royalEvents = await getRoyalEvents();
-  // const controlRisksEvents = await getControlRisksEvents();
-  // const parliamentEvents = await getParliamentEvents();
+  // Fetch events with error handling
+  const [boeEvents, nhsEvents, onsEvents, royalEvents, controlRisksEvents, parliamentEvents] = await Promise.all([
+    fetchEventsSafely(getBankOfEnglandEvents),
+    fetchEventsSafely(getNHSEvents),
+    fetchEventsSafely(getOnsEvents),
+    fetchEventsSafely(getRoyalEvents),
+    fetchEventsSafely(getControlRisksEvents),
+    fetchEventsSafely(getParliamentEvents),
+  ]);
 
+  // Combine results
   const allEvents = [
     ...nhsEvents,
-    // ...onsEvents,
+    ...onsEvents,
     ...royalEvents,
-     //...boeEvents,
-    // ...controlRisksEvents,
-    // ...parliamentEvents,
+    ...boeEvents,
+    ...controlRisksEvents,
+    ...parliamentEvents,
   ];
 
+  // File path
   const path = './content/events/events.json';
 
-// Load existing events from file if it exists
+  // Load existing events from file if it exists
   let existingEvents = [];
   if (fs.existsSync(path)) {
     existingEvents = JSON.parse(fs.readFileSync(path, 'utf-8'));
@@ -35,7 +50,6 @@ const { getRoyalEvents } = require('./scrapers/royal_events');
   const getUniqueKey = (event) => `${event.title}-${event.date}`;
 
   // Merge new events with existing events
-  // const allEvents = []; // Assume this is defined somewhere
   const uniqueEventsMap = new Map();
 
   // Add existing events to the map
@@ -48,4 +62,7 @@ const { getRoyalEvents } = require('./scrapers/royal_events');
 
   // Save merged events to file
   fs.writeFileSync(path, JSON.stringify(uniqueEvents, null, 2), 'utf-8');
+
+  // Extract sources
+  extractSources();
 })();

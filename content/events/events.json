@@ -1973,7 +1973,7 @@
     "date": "2024-10-01",
     "url": "https://digital.nhs.uk/data-and-information/publications/statistical/community-services-statistics-for-children-young-people-and-adults/july-2024",
     "source": "NHS",
-    "allMonth": true
+    "allMonth": false
   },
   {
     "title": "Provisional Accident and Emergency Quality Indicators for England, August 2024, by provider",
@@ -2378,7 +2378,7 @@
   },
   {
     "title": "The Duchess of Edinburgh",
-    "description": "Patron, Defence Medical Welfare Service, will attend a Reception at Windsor Castle.",
+    "description": "Patron, Defence Medical Welfare Service, will hold a Reception at Windsor Castle.",
     "date": "2024-09-10",
     "time": "13:00",
     "source": "Royal Events",
@@ -2519,5 +2519,858 @@
     "time": "13:00",
     "source": "Royal Events",
     "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "Hospital Outpatient Activity, 2023-24",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-outpatient-activity/2023-24",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Hospital Admitted Patient Care Activity, 2023-24",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-admitted-patient-care-activity/2023-24",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Hospital Accident & Emergency Activity, 2023-24",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/hospital-accident--emergency-activity/2023-24",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Primary Care Network Workforce, 31 August 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-network-workforce/31-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "General Practice Workforce, 31 August 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/31-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Submissions via Online Consultation Systems in General Practice, August 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/submissions-via-online-consultation-systems-in-general-practice/august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Workforce Statistics, June 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-workforce-statistics/june-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Staff Earnings Estimates, June 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-staff-earnings-estimates/june-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Sickness Absence Rates, May 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-sickness-absence-rates/may-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Appointments in General Practice, August 2024",
+    "date": "2024-09-26",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice/august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Proposed Dispensing Feescales for GMS Contractors, England and Wales - 2024, October release",
+    "date": "2024-10-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/proposed-dispensing-feescales-for-gms/proposed-dispensing-feescales-for-gms-contractors-england-and-wales---2024-october-release",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Patients Registered at a GP Practice, December 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/december-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Summary Hospital-level Mortality Indicator (SHMI), Deaths associated with hospitalisation, England, August 2023 - July 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/shmi/2024-12",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "NHS Talking Therapies Monthly Statistics Including Employment Advisors, Performance October 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-talking-therapies-monthly-statistics-including-employment-advisors/performance-october-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Maternity Services Monthly Statistics, Final September 2024, Provisional October 2024, official statistics",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/maternity-services-monthly-statistics/final-september-2024-provisional-october-2024-official-statistics",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Primary Care Network Workforce, 30 November 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-network-workforce/30-november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "General Practice Workforce, 30 November 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/30-november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Producer price inflation, UK: July 2024 time series",
+    "date": "2024-08-14",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukjuly2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Consumer price inflation, UK: July 2024 time series",
+    "date": "2024-08-14",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukjuly2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: July 2024",
+    "date": "2024-08-14",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/contributionstothe12monthrateofcpihbyimportintensityjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 2 August 2024",
+    "date": "2024-08-14",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending2august2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Private rent and house prices, UK: August 2024",
+    "date": "2024-08-14",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP first quarterly estimate, UK: April to June 2024 time series",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukapriltojune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Production, UK: June 2024 time series",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukjune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Construction output in Great Britain: June 2024, new orders and Construction Output Price Indices April to June 2024",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainjune2024newordersandconstructionoutputpriceindicesapriltojune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: June 2024 time series",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: June 2024",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Services, UK: June 2024 time series",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofservicesukjune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: June 2024 time series",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradejune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Production, UK: June 2024",
+    "date": "2024-08-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukjune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Economic activity and social change in the UK, real-time indicators : 15 August 2024",
+    "date": "2024-08-15",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators15august2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Deaths registered monthly in England and Wales: July 2024",
+    "date": "2024-08-16",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredmonthlyinenglandandwalesjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Public Sector Finances - July 2024",
+    "date": "2024-08-21",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Small area gross value added estimates, UK: 1998 to 2022",
+    "date": "2024-08-21",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/smallareagrossvalueaddedestimatesuk1998to2022",
+    "source": "ONS"
+  },
+  {
+    "title": "Young people not in education, employment or training (NEET), UK: August 2024",
+    "date": "2024-08-22",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetukaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Economic activity and social change in the UK, real-time indicators : 22 August 2024",
+    "date": "2024-08-22",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/economicactivityandsocialchangeintheukrealtimeindicators22august2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Business insights and impact on the UK economy: 22 August 2024",
+    "date": "2024-08-22",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy22august2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Waiting times for cancer treatment across the UK",
+    "date": "2024-08-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/waitingtimesforcancertreatmentacrosstheuk",
+    "source": "ONS"
+  },
+  {
+    "title": "Family spending in the UK: April 2022 to March 2023",
+    "date": "2024-08-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/familyspendingintheukapril2022tomarch2023",
+    "source": "ONS"
+  },
+  {
+    "title": "Household Costs Indices for UK household groups: April 2024 to June 2024",
+    "date": "2024-08-28",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsapril2024tojune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Quarterly suicide death registrations in England : 2001 to 2023 registrations and Quarter 1 (Jan to Mar) 2024 provisional data",
+    "date": "2024-08-29",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/quarterlysuicidedeathregistrationsinengland2001to2023registrationsandquarter1jantomar2024provisionaldata",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector employment, UK: June 2024 time series",
+    "date": "2024-09-10",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukjune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector employment, UK: June 2024",
+    "date": "2024-09-10",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukjune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Production, UK: July 2024",
+    "date": "2024-09-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: July 2024 time series",
+    "date": "2024-09-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradejuly2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: July 2024",
+    "date": "2024-09-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradejuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Services, UK: July 2024",
+    "date": "2024-09-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofservicesukjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: July 2024",
+    "date": "2024-09-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukjuly2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Retail sales, Great Britain: August 2024",
+    "date": "2024-09-20",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Public Sector Finances - August 2024",
+    "date": "2024-09-20",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Births and fertility explained",
+    "date": "2024-09-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/birthsandfertilityexplained",
+    "source": "ONS"
+  },
+  {
+    "title": "UK business; activity, size and location: 2024",
+    "date": "2024-09-25",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/ukbusinessactivitysizeandlocation2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Median House Price and Sales Volume update - Housing affordability in England and Wales: 2023",
+    "date": "2024-09-25",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/medianhousepriceandsalesvolumeupdatehousingaffordabilityinenglandandwales2023",
+    "source": "ONS"
+  },
+  {
+    "title": "Workless households for regions across the UK: 2023",
+    "date": "2024-09-27",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/worklesshouseholdsforregionsacrosstheuk2023",
+    "source": "ONS"
+  },
+  {
+    "title": "Balance of payments, UK: April to June 2024",
+    "date": "2024-09-30",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/balanceofpaymentsukapriltojune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Balance of payments, UK: April to June 2024 time series",
+    "date": "2024-09-30",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/balanceofpaymentsukapriltojune2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Foreign direct investment involving UK companies: 2022",
+    "date": "2024-10-08",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/foreigndirectinvestmentinvolvingukcompanies2022",
+    "source": "ONS"
+  },
+  {
+    "title": "UK trade: August 2024 time series",
+    "date": "2024-10-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradeaugust2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "UK trade: August 2024",
+    "date": "2024-10-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradeaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Construction output in Great Britain: August 2024",
+    "date": "2024-10-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainaugust2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: August 2024 time series",
+    "date": "2024-10-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukaugust2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Consumer price inflation, UK: September 2024",
+    "date": "2024-10-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Producer price inflation, UK: September 2024 including services, July to September 2024",
+    "date": "2024-10-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukseptember2024includingservicesjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK trade, quarterly goods and services: April to June 2024",
+    "date": "2024-10-25",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/uktradequarterlygoodsandservicesapriltojune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK trade in services by partner country: April to June 2024",
+    "date": "2024-10-25",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/uktradeinservicesbypartnercountryapriltojune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Employee earnings in the UK: 2024",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/employeeearningsintheuk2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Balance of Payments, The Pink Book: 2024",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/ukbalanceofpaymentsthepinkbook2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Input-output supply and use tables - Blue Book 2024",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/inputoutputsupplyandusetablesbluebook2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK National Accounts, The Blue Book: 2024",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/uknationalaccountsthebluebook2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Measuring progress, well-being and beyond GDP in the UK: November 2024",
+    "date": "2024-11-14",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/measuringprogresswellbeingandbeyondgdpintheuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP first quarterly estimate, UK: July to September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: September 2024 time series",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Construction output in Great Britain: September 2024, new orders and Construction Output Price Indices, July to September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainseptember2024newordersandconstructionoutputpriceindicesjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP first quarterly estimate, UK: July to September 2024 time series",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpfirstquarterlyestimateukjulytoseptember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Production, UK: September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofproductionukseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Index of Services, UK: September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/indexofservicesukseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: September 2024 time series",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradeseptember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradeseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: September 2024",
+    "date": "2024-11-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Productivity flash estimate and overview, UK: July to September 2024 and April to June 2024",
+    "date": "2024-11-15",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/ukproductivityflashestimatejulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Business insights and impact on the UK economy: 21 November 2024",
+    "date": "2024-11-21",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/businessinsightsandimpactontheukeconomy21november2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Young people not in education, employment or training (NEET), UK: November 2024",
+    "date": "2024-11-21",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/youngpeoplenotineducationemploymentortrainingneetuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Retail Sales; Great Britain: October 2024",
+    "date": "2024-11-22",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Retail Sales; Great Britain, October 2024 time series",
+    "date": "2024-11-22",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/retailsalesgreatbritainoctober2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Long-term international migration, provisional: year ending June 2024",
+    "date": "2024-11-28",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/longterminternationalmigrationprovisionalyearendingjune2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Household Costs Indices for UK household groups: July 2024 to September 2024",
+    "date": "2024-11-28",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsjuly2024toseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Mergers and Acquisitions involving UK companies: July to September 2024",
+    "date": "2024-12-03",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/mergersandacquisitionsinvolvingukcompaniesjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Construction output in Great Britain: October 2024",
+    "date": "2024-12-13",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/constructionoutputingreatbritainoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Trade: October 2024",
+    "date": "2024-12-13",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradeoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector employment, UK: September 2024 time series",
+    "date": "2024-12-17",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukseptember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector employment, UK: September 2024",
+    "date": "2024-12-17",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectoremploymentukseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Producer price inflation, UK: November 2024",
+    "date": "2024-12-18",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Consumer price inflation, UK: November 2024",
+    "date": "2024-12-18",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP quarterly national accounts, UK: July to September 2024 time series",
+    "date": "2024-12-23",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpquarterlynationalaccountsukjulytoseptember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Economic Accounts: July to September 2024",
+    "date": "2024-12-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/ukeconomicaccountsjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Consumer trends, UK: July to September 2024",
+    "date": "2024-12-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/consumertrendsukjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Business investment in the UK: July to September 2024 revised results",
+    "date": "2024-12-23",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/businessinvestmentintheukjulytoseptember2024revisedresults",
+    "source": "ONS"
+  },
+  {
+    "title": "Producer price inflation, UK: December 2024 including services, October to December 2024 time series",
+    "date": "2025-01-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukdecember2024includingservicesoctobertodecember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Consumer price inflation, UK: December 2024",
+    "date": "2025-01-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/consumerpriceinflationukdecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Producer price inflation, UK: December 2024 including services, October to December 2024",
+    "date": "2025-01-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/producerpriceinflationukdecember2024includingservicesoctobertodecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Private Rent and House Prices, UK: January 2025",
+    "date": "2025-01-15",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/privaterentandhousepricesukjanuary2025",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: November 2024",
+    "date": "2025-01-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: November 2024 time series",
+    "date": "2025-01-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateuknovember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "GDP monthly estimate, UK: December 2024",
+    "date": "2025-02-13",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/gdpmonthlyestimateukdecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK trade: December 2024 time series",
+    "date": "2025-02-13",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uktradedecember2024timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: January 2025 time series",
+    "date": "2025-02-21",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjanuary2025timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: January 2025",
+    "date": "2025-02-21",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukjanuary2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Household Costs Indices for UK household groups: October 2024 to December 2024",
+    "date": "2025-02-24",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/householdcostsindicesforukhouseholdgroupsoctober2024todecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: March 2025",
+    "date": "2025-04-23",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukmarch2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: March 2025 time series",
+    "date": "2025-04-23",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukmarch2025timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: April 2025",
+    "date": "2025-05-22",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukapril2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Public sector finances, UK: April 2025 time series",
+    "date": "2025-05-22",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesukapril2025timeseries",
+    "source": "ONS"
+  },
+  {
+    "title": "Long-term international migration, provisional: year ending December 2024",
+    "date": "2025-05-22",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/longterminternationalmigrationprovisionalyearendingdecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "The Duchess of Gloucester",
+    "description": "will visit Stablemates, 46 Knights Way, Tewkesbury, Gloucestershire, GL20.",
+    "date": "2024-09-20",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "Currency of the Future",
+    "url": "https://www.bankofengland.co.uk/museum/whats-on/2024/currency-of-the-future",
+    "date": "2024-09-16",
+    "time": null,
+    "extractedTime": null,
+    "description": "Event - undefined",
+    "source": "Bank of England"
+  },
+  {
+    "title": "10th BdF-BoE-BdI International Macroeconomics Workshop: Structural factors in the global economy",
+    "url": "https://www.bankofengland.co.uk/events/2024/june/10-bdf-boe-international-macroeconomics-workshop",
+    "date": "2024-10-25",
+    "time": null,
+    "extractedTime": null,
+    "description": "Event - Workshop",
+    "source": "Bank of England"
+  },
+  {
+    "title": "Capital Issuance - September 2024 (to be published at 9.30am)",
+    "url": "https://www.bankofengland.co.uk/statistics/capital-issuance/2024/september-2024",
+    "date": "2024-10-25",
+    "time": "09:30",
+    "extractedTime": "9.30am",
+    "description": "Statistics - Capital issuance",
+    "source": "Bank of England"
+  },
+  {
+    "title": "Effective interest rates - September 2024 (to be published at 9.30am)",
+    "url": "https://www.bankofengland.co.uk/statistics/effective-interest-rates/2024/september-2024",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "extractedTime": "9.30am",
+    "description": "Statistics - Effective interest rates",
+    "source": "Bank of England"
+  },
+  {
+    "title": "Money and Credit - September 2024 (to be published at 9.30am)",
+    "url": "https://www.bankofengland.co.uk/statistics/money-and-credit/2024/september-2024",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "extractedTime": "9.30am",
+    "description": "Statistics - Money and Credit",
+    "source": "Bank of England"
+  },
+  {
+    "title": "Credit union quarterly statistics - 2024 Q2 (to be published at 9.30am)",
+    "url": "https://www.bankofengland.co.uk/statistics/credit-union/2024/2024-q2",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "extractedTime": "9.30am",
+    "description": "Statistics - Credit union",
+    "source": "Bank of England"
   }
 ]

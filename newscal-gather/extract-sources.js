@@ -15,12 +15,14 @@ function extractUniqueSources(dataArray) {
 }
 
 
-const itemsString = fs.readFileSync('./content/events/events.json', 'utf-8')
+function extractSources() {
+  const itemsString = fs.readFileSync('./content/events/events.json', 'utf-8')
 
+  const items = JSON.parse(itemsString)
 
-const items = JSON.parse(itemsString)
+  const sources = extractUniqueSources(items)
 
-const sources = extractUniqueSources(items)
+  fs.writeFileSync('./content/events/sources.json', JSON.stringify(sources), 'utf-8')
+}
 
-fs.writeFileSync('./content/events/sources.json', JSON.stringify(sources), 'utf-8')
-
+module.exports.extractSources = extractSources

@@ -46,6 +46,7 @@ function itemToEvent(source) {
       title: item.title,
       description: item.summary,
       source,
+      url: item.link,
       ...(dateTime ? dateTime : {}),
     };
   };
@@ -62,7 +63,7 @@ async function rssToEvents(rssFeedUrl, source) {
   return feed.items.map(itemToEvent(source));
 }
 
-module.exports.rssToEvents = rssToEvents
+module.exports.rssToEvents = rssToEvents;
 
 (async () => {
   // const items = await rssToEvents(

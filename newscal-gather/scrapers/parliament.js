@@ -1,33 +1,36 @@
 const { chromium } = require('playwright');
-const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+const userAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36";
 
-const getParliamentEventsForUrl = async (url) => {
-  const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({ userAgent, bypassCSP: true });
+// Function to generate date URLs
+const generateUrls = (startDate, endDate) => {
+  const urls = [];
+  const currentDate = new Date(startDate);
 
+  while (currentDate <= new Date(endDate)) {
+    const year = currentDate.getFullYear();
+    const month = (currentDate.getMonth() + 1).toString().padStart(2, '0');
+    const day = currentDate.getDate().toString().padStart(2, '0');
+    const url = `https://whatson.parliament.uk/commons/${year}-${month}-${day}/`;
+    urls.push(url);
+
+    // Move to the next day
+    currentDate.setDate(currentDate.getDate() + 1);
+  }
+
+  return urls;
+};
+
+// Function to get events from a URL
+const getParliamentEventsForUrl = async (page, url) => {
   try {
-    const page = await context.newPage();
-    // Navigate to the URL
     await page.goto(url, { waitUntil: 'networkidle' });
     await page.waitForSelector('.item-card-list .card', { timeout: 2000 });
 
-    // Extract information for each item
     const items = await page.$$eval('.item-card-list .card', (cards) => {
-      // Convert month abbreviation to number
       const monthToNumber = (month) => {
         const months = {
-          Jan: '01',
-          Feb: '02',
-          Mar: '03',
-          Apr: '04',
-          May: '05',
-          Jun: '06',
-          Jul: '07',
-          Aug: '08',
-          Sep: '09',
-          Oct: '10',
-          Nov: '11',
-          Dec: '12'
+          Jan: '01', Feb: '02', Mar: '03', Apr: '04', May: '05', Jun: '06',
+          Jul: '07', Aug: '08', Sep: '09', Oct: '10', Nov: '11', Dec: '12'
         };
         return months[month] || '00';
       };
@@ -47,15 +50,11 @@ const getParliamentEventsForUrl = async (url) => {
         const year = yearElement ? yearElement.textContent.trim() : '';
         const link = linkElement ? 'https://whatson.parliament.uk' + linkElement.getAttribute('href') : '';
 
-        // If title is not found, use category1 as title
         const finalTitle = title || category1;
-
-        const date = year && month && day
-          ? `${year}-${monthToNumber(month)}-${day.padStart(2, '0')}`
-          : '';
+        const date = year && month && day ? `${year}-${monthToNumber(month)}-${day.padStart(2, '0')}` : '';
 
         if (!date) {
-          return null
+          return null;
         }
 
         return {
@@ -68,21 +67,41 @@ const getParliamentEventsForUrl = async (url) => {
       });
     });
 
-    return items.filter(item => !item);
+    return items.filter(item => item !== null);
   } catch (error) {
     console.error('Error fetching or processing data:', error);
-    return []
-  } finally {
-    await context.close();
-    await browser.close();
+    return [];
   }
 };
 
-// URL to fetch data from
-const url = 'https://whatson.parliament.uk/events/commons/thisweek/';
+// Function to get events between two dates
+const getParliamentEventsBetweenDates = async (startDate, endDate) => {
+  const urls = generateUrls(startDate, endDate);
+  const browser = await chromium.launch({ headless: false });
+  const context = await browser.newContext({ userAgent, bypassCSP: true });
+  const page = await context.newPage();
+  const allEvents = [];
 
-async function getParliamentEvents() {
-  return getParliamentEventsForUrl(url)
-}
+  for (const url of urls) {
+    const events = await getParliamentEventsForUrl(page, url);
+    allEvents.push(...events);
+  }
 
-module.exports.getParliamentEvents = getParliamentEvents
+  await context.close();
+  await browser.close();
+
+  return allEvents;
+};
+
+// Example usage
+(async () => {
+  if (process.argv[2] == '-t' || process.argv[2] == '--test') {
+    const startDate = '2024-09-01';
+    const endDate = '2024-09-03';
+    const events = await getParliamentEventsBetweenDates(startDate, endDate);
+    console.log(events);
+  }
+})();
+
+module.exports.getParliamentEventsBetweenDates = getParliamentEventsBetweenDates;
+// module.exports.getParliamentEvents = () => getParliamentEventsBetweenDates();

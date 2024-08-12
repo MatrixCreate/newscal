@@ -5,6 +5,8 @@ const { getOnsEvents } = require('./scrapers/ons');
 const { getControlRisksEvents } = require('./scrapers/control_risks');
 const { getParliamentEvents } = require('./scrapers/parliament');
 const { getRoyalEvents } = require('./scrapers/royal_events');
+const { getGovEvents } = require('./scrapers/gov')
+
 const { extractSources } = require('./extract-sources');
 
 const fetchEventsSafely = async (fetchFunction) => {
@@ -18,24 +20,18 @@ const fetchEventsSafely = async (fetchFunction) => {
 
 (async () => {
   // Fetch events with error handling
-  const [boeEvents, nhsEvents, onsEvents, royalEvents, controlRisksEvents, parliamentEvents] = await Promise.all([
+  const nestedEvents = await Promise.all([
+    fetchEventsSafely(getGovEvents),
     fetchEventsSafely(getBankOfEnglandEvents),
     fetchEventsSafely(getNHSEvents),
     fetchEventsSafely(getOnsEvents),
     fetchEventsSafely(getRoyalEvents),
     fetchEventsSafely(getControlRisksEvents),
-    fetchEventsSafely(getParliamentEvents),
+    // fetchEventsSafely(getParliamentEvents),
   ]);
 
   // Combine results
-  const allEvents = [
-    ...nhsEvents,
-    ...onsEvents,
-    ...royalEvents,
-    ...boeEvents,
-    ...controlRisksEvents,
-    ...parliamentEvents,
-  ];
+  const allEvents = nestedEvents.flat();
 
   // File path
   const path = './content/events/events.json';

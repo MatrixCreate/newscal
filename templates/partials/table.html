@@ -13,7 +13,7 @@
         {% set isChecked = name == "NHS" or name == "ONS" %}
         <div class="form-control">
           <label class="label cursor-pointer">
-            <span class="label-texkt">{{ source }}</span>
+            <span class="label-text">{{ source }}</span>
             <input value="{{ source }}"
                   type="checkbox"
                   {% if isChecked -%}
@@ -39,6 +39,14 @@
             <input value="past-events"
                   type="checkbox"
                   class="checkbox js-past-events" />
+          </label>
+        </div>
+        <div class="form-control">
+          <label class="label cursor-pointer">
+            <span class="label-text">Hide Future Events</span>
+            <input value="past-events"
+                  type="checkbox"
+                  class="checkbox js-future-events" />
           </label>
         </div>
       </div>

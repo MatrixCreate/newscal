@@ -62,7 +62,7 @@ async function getOnsEvents() {
     }
   }
 
-  console.log(JSON.stringify(allResults))
+  // console.log(JSON.stringify(allResults))
   return allResults
 }
 

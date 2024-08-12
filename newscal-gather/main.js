@@ -20,18 +20,18 @@ const fetchEventsSafely = async (fetchFunction) => {
 
 (async () => {
   // Fetch events with error handling
+  const govEvents = await fetchEventsSafely(getGovEvents)
+  const nhsEvents = await fetchEventsSafely(getNHSEvents)
   const nestedEvents = await Promise.all([
-    fetchEventsSafely(getGovEvents),
     fetchEventsSafely(getBankOfEnglandEvents),
-    fetchEventsSafely(getNHSEvents),
     fetchEventsSafely(getOnsEvents),
     fetchEventsSafely(getRoyalEvents),
     fetchEventsSafely(getControlRisksEvents),
-    // fetchEventsSafely(getParliamentEvents),
+    //fetchEventsSafely(getParliamentEvents),
   ]);
 
   // Combine results
-  const allEvents = nestedEvents.flat();
+  const allEvents = [...(nestedEvents.flat()), ...govEvents, ...nhsEvents  ]
 
   // File path
   const path = './content/events/events.json';

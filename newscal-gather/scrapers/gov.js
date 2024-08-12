@@ -8,23 +8,50 @@ function splitAtFirstOccurrence(str, delimiter) {
   return [str.slice(0, index), str.slice(index + delimiter.length)];
 }
 
-// Parses date and time from a string
-function parseDateTime(dateTimeStr) {
-  const regex = /^\d{1,2} [A-Za-z]+ \d{4} \d{1,2}:\d{2}[ap]m$/;
 
-  if (!regex.test(dateTimeStr)) {
-      return undefined;
+const months = {
+  January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
+  July: '07', August: '08', September: '09', October: '10', November: '11', December: '12'
+};
+
+const fullDateTimeRegex = /^\d{1,2} [A-Za-z]+ \d{4} \d{1,2}:\d{2}[ap]m$/;
+const monthYearRegex = /^[A-Za-z]+ \d{4}$/;
+const timeRegex  = /\b(\d{1,2}):(\d{2})(am|pm)\b/;
+
+const getDate = (dateTimeStr) => {
+  if (!dateTimeStr) {
+    return
+  }
+  const isFullDate = fullDateTimeRegex.test(dateTimeStr);
+  const isMonthYear = monthYearRegex.test(dateTimeStr);
+  const dateTimeSplit = dateTimeStr.split(' ');
+
+  if (isMonthYear) {
+    const [monthStr, year] = dateTimeSplit;
+    const month = months[monthStr];
+    return { date: `${year}-${month}-01`, allMonth: true }
   }
 
-  const months = {
-    January: '01', February: '02', March: '03', April: '04', May: '05', June: '06',
-    July: '07', August: '08', September: '09', October: '10', November: '11', December: '12'
-  };
+  if (isFullDate) {
+    const [day, monthStr, year] = dateTimeSplit;
+    const month = months[monthStr];
+    return { date: `${year}-${month}-${day.padStart(2, '0')}`, allMonth: false };
+  }
 
-  const dateTimeSplit = dateTimeStr.split(' ')
-  const [day, monthStr, year, timeStr] = dateTimeSplit;
-  const month = months[monthStr];
-  let [time, period] = timeStr.split(/(am|pm)/);
+  return null
+};
+
+const getTime = (dateTimeStr) => {
+  const match = dateTimeStr.match(timeRegex)
+
+  if (!match) {
+    return undefined
+  }
+
+  let [_, hour, minute, period] = match
+
+  const time = `${hour}:${minute}`;
+
   period = period || 'am';
   let [hours, minutes] = time.split(':').map(Number);
 
@@ -32,12 +59,21 @@ function parseDateTime(dateTimeStr) {
   if (period === 'am' && hours === 12) hours = 0;
 
   hours = hours.toString().padStart(2, '0');
-  minutes = minutes.toString().padStart(2, '0');
+   minutes = minutes.toString().padStart(2, '0');
 
-  const dateFormatted = `${year}-${month}-${day.padStart(2, '0')}`;
-  const timeFormatted = `${hours}:${minutes}`;
+  return `${hours}:${minutes}`;
+};
 
-  return { date: dateFormatted, time: timeFormatted };
+// Parses date and time from a string
+function parseDateTime(dateTimeStr) {
+  const dateTime = getDate(dateTimeStr)
+  if (!dateTime) {
+    return null
+  }
+  const { date, allMonth } = dateTime;
+  const time = getTime(dateTimeStr);
+
+  return { date, time, allMonth };
 }
 
 // Scrapes events from a given URL
@@ -84,7 +120,7 @@ async function scrapeEvents(url) {
 }
 
 // Fetches events from multiple pages
-async function getGovEvents(pages=60) {
+async function getGovEvents(pages=80) {
   const baseUrl = `https://www.gov.uk/search/research-and-statistics?content_store_document_type=upcoming_statistics&order=updated-newest`
   const allEvents = [];
 
@@ -99,9 +135,9 @@ async function getGovEvents(pages=60) {
 
 (async () => {
 
-  // const events = await getGovEvents(3)
+   // const events = await getGovEvents(3)
 
-  // console.log(JSON.stringify(events))
+   // console.log(JSON.stringify(events))
 })()
 
 // Export the function

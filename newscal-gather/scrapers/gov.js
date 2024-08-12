@@ -102,14 +102,17 @@ async function scrapeEvents(url) {
       const dateTime = releaseDateTime ? parseDateTime(releaseDateTime) : undefined;
       const relativeUrl = $(element).find('.gem-c-document-list__item-title a').attr('href');
       const fullUrl = new URL(relativeUrl, url).href;
+      if (dateTime) {
 
-      events.push({
-        title,
-        description,
-        source: "Government Research & Statistics",
-        url: fullUrl,
-        ...(dateTime ? dateTime : {})
-      });
+        events.push({
+          title,
+          description,
+          source: "Government Research & Statistics",
+          url: fullUrl,
+          ...dateTime,
+        });
+      }
+
     });
 
     return events;

@@ -1,6 +1,7 @@
 import DataTable from 'datatables.net-dt';
 import 'datatables.net-responsive-dt';
 import { Calendar } from '@fullcalendar/core';
+import listPlugin from '@fullcalendar/list';
 import dayGridPlugin from '@fullcalendar/daygrid';
 
 const SOURCE_COL = 2;
@@ -93,8 +94,8 @@ window.addEventListener('DOMContentLoaded', () => {
   if (calendarEl) {
     console.log(window.calEvents)
     const calendar = new Calendar(calendarEl, {
-      plugins: [ dayGridPlugin ],
-      viewType: "dayGridMonth",
+      plugins: [ dayGridPlugin, listPlugin  ],
+      viewType: "listMonth",
       events:  [...window.calEvents, ],
     })
 

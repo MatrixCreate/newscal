@@ -3372,5 +3372,77 @@
     "extractedTime": "9.30am",
     "description": "Statistics - Credit union",
     "source": "Bank of England"
+  },
+  {
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 9 August 2024",
+    "date": "2024-08-21",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/deathsregisteredweeklyinenglandandwalesprovisionalweekending9august2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market statistics time series: September 2024",
+    "date": "2024-09-10",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: October 2024",
+    "date": "2024-10-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market statistics time series: October 2024",
+    "date": "2024-10-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market in the regions of the UK: October 2024",
+    "date": "2024-10-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukoctober2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market statistics time series: November 2024",
+    "date": "2024-11-12",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesnovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2024",
+    "date": "2024-11-12",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationuknovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Labour Market November 2024",
+    "date": "2024-11-12",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketnovember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market in the regions of the UK: December 2024",
+    "date": "2024-12-17",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukdecember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Andrew Bailey: Speech at Federal Reserve Bank of Kansas Annual Jackson Hole Economic Policy Symposium,...",
+    "url": "https://www.bankofengland.co.uk/speech/2024/august/andrew-bailey-speech-federal-reserve-bank-of-kansas-annual-jackson-hole-economic-policy-symposium",
+    "date": "2024-08-23",
+    "time": null,
+    "extractedTime": null,
+    "description": "Speech - Andrew Bailey",
+    "source": "Bank of England"
   }
 ]

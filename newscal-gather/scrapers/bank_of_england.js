@@ -120,7 +120,7 @@ const getBankOfEnglandEvents = async () => {
 };
 
 (async () => {
-  const events = await getBankOfEnglandEvents()
+  // const events = await getBankOfEnglandEvents()
 
 })()
 

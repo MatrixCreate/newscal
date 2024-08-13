@@ -56,27 +56,49 @@ window.addEventListener('DOMContentLoaded', () => {
 
     const filteredSources = new Set();
 
+    const updateSourceEl = (sourceEl) => {
+      const name = sourceEl.value;
+
+      if (sourceEl.checked) {
+        filteredSources.delete(name);
+      } else {
+        filteredSources.add(name);
+      }
+
+      updateSearch(table, filteredSources);
+    };
+
     document.querySelectorAll('.js-source').forEach(sourceEl => {
-      const updateSourceEl = () => {
-        const name = sourceEl.value;
-
-        if (sourceEl.checked) {
-          filteredSources.delete(name);
-        } else {
-          filteredSources.add(name);
-        }
-
-        updateSearch(table, filteredSources);
-      };
-
-      updateSourceEl();
+      updateSourceEl(sourceEl);
       updateSearch(table, filteredSources);
 
       sourceEl.addEventListener('change', () => {
-        updateSourceEl();
+        updateSourceEl(sourceEl);
         updateSearch(table, filteredSources);
       });
     });
+
+    // Function to select all checkboxes
+    function selectAll() {
+      document.querySelectorAll('.checkbox.js-source').forEach(checkbox => {
+        checkbox.checked = true;
+        updateSourceEl(checkbox);
+      });
+      updateSearch(table, filteredSources)
+    }
+
+    // Function to deselect all checkboxes
+    function selectNone() {
+      document.querySelectorAll('.checkbox.js-source').forEach(checkbox => {
+        checkbox.checked = false;
+        updateSourceEl(checkbox);
+      });
+      updateSearch(table, filteredSources)
+    }
+
+    // Add event listeners to buttons
+    document.querySelector('.js-all-sources').addEventListener('click', selectAll);
+    document.querySelector('.js-no-sources').addEventListener('click', selectNone)
   }
 });
 
@@ -132,7 +154,6 @@ window.addEventListener('DOMContentLoaded', () => {
   // filterItems('England');  // Pass your query here
 
   document.querySelector('.js-search').addEventListener('keyup', (e) => {
-    console.log('search', e.target.value)
     filterItems(e.target.value)
   })
 })

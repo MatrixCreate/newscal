@@ -31,7 +31,7 @@ const fetchEventsSafely = async (fetchFunction) => {
   ]);
 
   // Combine results
-  const allEvents = [...(nestedEvents.flat()), ...govEvents, ...nhsEvents  ]
+  const allEvents = [...(nestedEvents.flat()), ...nhsEvents, ...govEvents ]
 
   // File path
   const path = './content/events/events.json';

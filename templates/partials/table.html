@@ -7,12 +7,15 @@
     <div class="collapse bg-base-200 ">
       <input type="checkbox" />
       <div class="collapse-title text-lg font-medium">
-        <h3 class="mb-2">
-          Sources
-        </h3>
+        <div>Sources </div>
       </div>
       <div class="collapse-content js-sources max-h-[200px] overflow-x-scroll">
-        <input type="text" placeholder="Search..." class="js-search input input-bordered w-full max-w-xs" />
+        <div class="flex gap-2 flex-col md:flex-row">
+          <input type="text" placeholder="Search..." class="js-search input input-bordered w-full max-w-xs" />
+          <button class="btn btn-success js-all-sources">Select All</button>
+          <button class="btn btn-warning js-no-sources">Select None</button>
+        </div>
+
         {% for source in sources %}
         {% set name = source %}
         {% set isChecked = name == "NHS" or name == "ONS" %}

@@ -41,6 +41,26 @@ const getDate = (dateTimeStr) => {
   return null
 };
 
+const SOURCES = {
+  'Office for National Statistics': 'ONS',
+  'Department for Environment, Food & Rural Affairs': 'Defra',
+  'Ministry of Justice': 'MoJ',
+  'Ministry of Defence': 'MoD',
+  'Closed organisation: NHS Digital': 'NHS',
+  'HM Treasury': 'HM Treasury',
+  'Bona Vacantia': 'Bona Vacantia',
+  'Department for Work and Pensions': 'DWP',
+  'Department of Health (Northern Ireland)': 'Dept. of Health (NI)',
+  'Department for Transport': 'DfT',
+  'Department for Education': 'DfE',
+  'HM Revenue & Customs': 'HMRC',
+  'NHS England': 'NHS',
+  'Natural England': 'Natural England',
+  'Ofcom': 'Ofcom',
+  'Ofsted': 'Ofsted',
+  'The Insolvency Service': 'Insolvency Service',
+}
+
 const getTime = (dateTimeStr) => {
   const match = dateTimeStr.match(timeRegex)
 
@@ -77,7 +97,7 @@ function parseDateTime(dateTimeStr) {
 }
 
 // Scrapes events from a given URL
-async function scrapeEvents(url) {
+async function scrapeEvents(url, hasPublished = false) {
   try {
     const { data } = await axios.get(url);
     const $ = cheerio.load(data);
@@ -95,20 +115,30 @@ async function scrapeEvents(url) {
       });
 
       const docType = attributes['Document type'] || '';
-      const organisation = attributes['Organisation'] || '';
+      const organisation = attributes['Organisation']
+        ? attributes['Organisation'].replace(/and \d+ others?/gi, '').trim()
+        : '';
       const releaseDateTime = attributes['Release date'] || '';
       const state = attributes['State'] || '';
 
       const dateTime = releaseDateTime ? parseDateTime(releaseDateTime) : undefined;
       const relativeUrl = $(element).find('.gem-c-document-list__item-title a').attr('href');
       const fullUrl = new URL(relativeUrl, url).href;
-      if (dateTime) {
 
+      let source = `${organisation ? `${organisation}` : ''}`
+
+      if (SOURCES[organisation]) {
+        source = `${SOURCES[organisation]}`
+      }
+
+      if (dateTime) {
         events.push({
           title,
-          description,
-          source: "Government Research & Statistics",
+          description: `${description}${docType ? ` - ${docType}` : ''}${state ? ` (${state})` : ''}`,
+          source,
           url: fullUrl,
+          dataSource: 'Gov Research & Statistics',
+          originalSource: organisation,
           ...dateTime,
         });
       }
@@ -137,8 +167,7 @@ async function getGovEvents(pages=80) {
 }
 
 (async () => {
-
-   // const events = await getGovEvents(3)
+   // const events = await getGovEvents(50)
 
    // console.log(JSON.stringify(events))
 })()

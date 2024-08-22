@@ -1,4 +1,5 @@
 const axios = require('axios');
+const fs = require('fs')
 const cheerio = require('cheerio');
 
 // Splits string at the first occurrence of delimiter
@@ -15,6 +16,7 @@ const months = {
 };
 
 const fullDateTimeRegex = /^\d{1,2} [A-Za-z]+ \d{4} \d{1,2}:\d{2}[ap]m$/;
+const fullDateRegex = /^\d{1,2} [A-Za-z]+ \d{4}$/;
 const monthYearRegex = /^[A-Za-z]+ \d{4}$/;
 const timeRegex  = /\b(\d{1,2}):(\d{2})(am|pm)\b/;
 
@@ -22,20 +24,23 @@ const getDate = (dateTimeStr) => {
   if (!dateTimeStr) {
     return
   }
-  const isFullDate = fullDateTimeRegex.test(dateTimeStr);
+
+  const isFullDate = fullDateTimeRegex.test(dateTimeStr)
+  const isFullDateNoTime = !isFullDate && fullDateRegex.test(dateTimeStr);
   const isMonthYear = monthYearRegex.test(dateTimeStr);
   const dateTimeSplit = dateTimeStr.split(' ');
 
   if (isMonthYear) {
     const [monthStr, year] = dateTimeSplit;
     const month = months[monthStr];
-    return { date: `${year}-${month}-01`, allMonth: true }
+    return { date: `${year}-${month}-01`, allMonth: true , allDay: true }
   }
 
-  if (isFullDate) {
+  if (isFullDate || isFullDateNoTime) {
     const [day, monthStr, year] = dateTimeSplit;
     const month = months[monthStr];
-    return { date: `${year}-${month}-${day.padStart(2, '0')}`, allMonth: false };
+    const allDay = isFullDateNoTime
+    return { date: `${year}-${month}-${day.padStart(2, '0')}`, allMonth: false, allDay };
   }
 
   return null
@@ -90,10 +95,11 @@ function parseDateTime(dateTimeStr) {
   if (!dateTime) {
     return null
   }
-  const { date, allMonth } = dateTime;
+
+  const { date, allMonth, allDay } = dateTime;
   const time = getTime(dateTimeStr);
 
-  return { date, time, allMonth };
+  return { date, time, allMonth, allDay };
 }
 
 // Scrapes events from a given URL
@@ -108,6 +114,7 @@ async function scrapeEvents(url, hasPublished = false) {
       const description = $(element).find('.gem-c-document-list__item-description').text().trim();
 
       const attributes = {};
+
       $(element).find('.gem-c-document-list__attribute').each((i, attr) => {
         const text = $(attr).text().trim();
         const [key, value] = splitAtFirstOccurrence(text, ":").map(part => part.trim());
@@ -120,8 +127,16 @@ async function scrapeEvents(url, hasPublished = false) {
         : '';
       const releaseDateTime = attributes['Release date'] || '';
       const state = attributes['State'] || '';
+      const updatedTime = attributes['Updated'] || '';
 
-      const dateTime = releaseDateTime ? parseDateTime(releaseDateTime) : undefined;
+      let dateTime
+
+      if (hasPublished) {
+        dateTime = updatedTime ? parseDateTime(updatedTime) : undefined
+      } else {
+        dateTime = releaseDateTime ? parseDateTime(releaseDateTime) : undefined;
+      }
+
       const relativeUrl = $(element).find('.gem-c-document-list__item-title a').attr('href');
       const fullUrl = new URL(relativeUrl, url).href;
 
@@ -166,11 +181,25 @@ async function getGovEvents(pages=80) {
   return allEvents;
 }
 
-(async () => {
-   // const events = await getGovEvents(50)
+async function getHistoricGovEvents(pages=200,hasPublished=true) {
+  const baseUrl = `https://www.gov.uk/search/research-and-statistics?content_store_document_type=statistics_published&order=updated-newest`
+  const allEvents = [];
 
+  for (let i = 1; i <= pages; i++) {
+    const url = `${baseUrl}&page=${i}`;
+    const events = await scrapeEvents(url, hasPublished);
+    allEvents.push(...events);
+  }
+
+  return allEvents;
+}
+
+(async () => {
+   // const events = await getHistoricGovEvents()
+
+   // const events = await getGovEvents(1)
    // console.log(JSON.stringify(events))
 })()
 
 // Export the function
-module.exports = { getGovEvents };
+module.exports = { getGovEvents, getHistoricGovEvents };

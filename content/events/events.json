@@ -1160,11 +1160,6 @@
   },
   {
     "title": "Public sector finances, UK: October 2025 time series",
-    "description": "The time series datasets consistent with the Public sector finances, UK: October 2025 bulletin - Official Statistics (confirmed)",
-    "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/public-sector-finances-uk-october-2025-time-series",
-    "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
     "date": "2025-11-21",
     "time": "07:00",
     "allMonth": false,
@@ -1514,25 +1509,17 @@
   },
   {
     "title": "Public sector finances, UK: November 2025 time series",
-    "description": "The time series datasets consistent with the Public sector finances, UK: November 2025 bulletin - Official Statistics (confirmed)",
-    "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/public-sector-finances-uk-november-2025-time-series",
-    "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
     "date": "2025-12-19",
     "time": "07:00",
-    "allMonth": false
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2025timeseries",
+    "source": "ONS"
   },
   {
     "title": "Public sector finances, UK: November 2025",
-    "description": "A presentational framework for the headline measures of Public Sector Finance Statistics (net borrowing  net cash requirement and net debt) is explained in this release. This includes the reasons for changes in net borrowing… - Official Statistics (confirmed)",
-    "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/public-sector-finances-uk-november-2025",
-    "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
     "date": "2025-12-19",
     "time": "07:00",
-    "allMonth": false
+    "url": "https://www.ons.gov.uk/releases/publicsectorfinancesuknovember2025",
+    "source": "ONS"
   },
   {
     "title": "Shanghai Cooperation Organisation (SCO)",
@@ -2241,70 +2228,69 @@
   },
   {
     "title": "Safeguarding Adults, England, 2023-24",
-    "date": "2024-08-29",
-    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/safeguarding-adults/2023-24",
+    "description": "Report of Adult Safeguarding concerns and enquiries. - Official Statistics",
     "source": "NHS",
-    "allMonth": false
+    "url": "https://www.gov.uk/government/statistics/safeguarding-adults-england-2023-24",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Closed organisation: NHS Digital",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
   },
   {
     "title": "Quality and Outcomes Framework, 2023-24",
-    "description": "Quality and Outcomes Framework, prevalence, achievement and personalised care adjustments data, 2022-23. Achievement information is based on practice level achievement against primary care indicators. Prevalence figures are … - Official Statistics (confirmed)",
+    "description": "Quality and Outcomes Framework, prevalence, achievement and personalised care adjustments data, 2022-23. Achievement information is based on practice level achievement against primary care indicators. Prevalence figures are … - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/quality-and-outcomes-framework-2023-24",
+    "url": "https://www.gov.uk/government/statistics/quality-and-outcomes-framework-2023-24",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "GP Earnings and Expenses Estimates, 2022/23",
-    "description": "The latest GP Earnings and Expenses enquiry provides a detailed study of the earnings and expenses for both full- and part-time GPs working in the UK as either a contractor or salaried GP - Official Statistics (confirmed)",
+    "description": "The latest GP Earnings and Expenses enquiry provides a detailed study of the earnings and expenses for both full- and part-time GPs working in the UK as either a contractor or salaried GP - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/gp-earnings-and-expenses-estimates-202223",
+    "url": "https://www.gov.uk/government/statistics/gp-earnings-and-expenses-estimates-202223",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "NHS Surplus Land, Quarter 1 2024/25",
-    "description": "This report presents timely information from the new NHS Surplus Land live collection. - Official Statistics (confirmed)",
+    "description": "This report presents timely information from the new NHS Surplus Land live collection. - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/nhs-surplus-land-quarter-1-202425",
+    "url": "https://www.gov.uk/government/statistics/nhs-surplus-land-quarter-1-202425",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Submissions via Online Consultation Systems in General Practice, July 2024",
-    "description": "This publication covers online consultations from national to General Practice level. - Official Statistics (confirmed)",
+    "description": "This publication covers online consultations from national to General Practice level. - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/submissions-via-online-consultation-systems-in-general-practice-july-2024",
+    "url": "https://www.gov.uk/government/statistics/submissions-via-online-consultation-systems-in-general-practice-july-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "NHS Workforce Statistics, May 2024",
-    "description": "NHS workforce (HCHS) broken down by staff groups region and organisation. - Official Statistics (confirmed)",
+    "description": "NHS workforce (HCHS) broken down by staff groups region and organisation. - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/nhs-workforce-statistics-may-2024",
+    "url": "https://www.gov.uk/government/statistics/nhs-workforce-statistics-may-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "NHS Vacancy Statistics England, April 2015 - June 2024, Experimental Statistics",
@@ -2315,27 +2301,25 @@
   },
   {
     "title": "NHS Sickness Absence Rates, April 2024",
-    "description": "Monthly report on NHS Sickness absence rates by regions, organisations and main staff groups. - Official Statistics (confirmed)",
+    "description": "Monthly report on NHS Sickness absence rates by regions, organisations and main staff groups. - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/nhs-sickness-absence-rates-april-2024",
+    "url": "https://www.gov.uk/government/statistics/nhs-sickness-absence-rates-april-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Appointments in General Practice, July 2024",
-    "description": "This information is published to support winter preparedness and provide information about some activity within primary care. The publication will cover historic appointments, marked as attended or did not attend, national t… - Official Statistics (confirmed)",
+    "description": "This information is published to support winter preparedness and provide information about some activity within primary care. The publication will cover historic appointments, marked as attended or did not attend, national t… - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/appointments-in-general-practice-july-2024",
+    "url": "https://www.gov.uk/government/statistics/appointments-in-general-practice-july-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Community Services Statistics, June 2024",
@@ -2952,7 +2936,7 @@
   },
   {
     "title": "The Duke of Gloucester",
-    "description": "Patron, the Museum of London, will tour the London Museum building site, General Market Building, Chaterhouse Street, EC1A.",
+    "description": "Patron, the Museum of London, will tour the new Museum Site, Smithfield Market, Grand Avenue, London EC1A.",
     "date": "2024-09-03",
     "time": "13:00",
     "source": "Royal Events",
@@ -2992,7 +2976,7 @@
   },
   {
     "title": "The Princess Royal",
-    "description": "Patron, English Rural Housing Association, will open a new development at Carpenters Yard, Shepherdswell, Dover, Kent.",
+    "description": "will visit Estuary Services Limited and Name a Pilot Vessel at Commercial Quay, Ramsgate Royal Harbour, Ramsgate, Kent.",
     "date": "2024-09-11",
     "time": "13:00",
     "source": "Royal Events",
@@ -3000,7 +2984,7 @@
   },
   {
     "title": "The Duke of Edinburgh The Duchess of Edinburgh",
-    "description": "The Duke of Edinburgh, Chairman, The Duke of Edinburgh's International Award Foundation, and The Duchess of Edinburgh, Global Ambassador, The Duke of Edinburgh's International Award Foundation, will attend the Beyond the Classroom Celebration Dinner at Frameless, 6 Marble Arch, London W1.",
+    "description": "The Duke of Edinburgh, Chairman, and The Duchess of Edinburgh, Global Ambassador, The Duke of Edinburgh's International Award Foundation, will attend the Beyond the Classroom Celebration Dinner at Frameless, 6 Marble Arch, London W1.",
     "date": "2024-09-11",
     "time": "13:00",
     "source": "Royal Events",
@@ -3048,7 +3032,7 @@
   },
   {
     "title": "The Duke of Gloucester",
-    "description": "Paton, The London Playing Fields Foundation, will officially open the new artificial pitch surface at the Douglas Eyre Sports Centre, Coppermill Lane, London.",
+    "description": "Patron, The London Playing Fields Foundation, will attend a Fiftieth Anniversary of Patronage Commemoration, and open the new 3G Pitch at the Douglas Eyre Sports Centre, Coppermill Lane, London, E17.",
     "date": "2024-09-18",
     "time": "13:00",
     "source": "Royal Events",
@@ -3080,7 +3064,7 @@
   },
   {
     "title": "The Princess Royal",
-    "description": "Patron, Opportunity International United Kingdom, will hold a Dinner at St. James's Palace.",
+    "description": "President, Scotch Chef's Club, will visit Hugh Black and Sons Independent Butchers, 83 Port Street, Stirling, Stirling and Falkirk.",
     "date": "2024-09-24",
     "time": "13:00",
     "source": "Royal Events",
@@ -3112,7 +3096,7 @@
   },
   {
     "title": "The Princess Royal",
-    "description": "Master, The Corporation of Trinity House, will Chair the Quarterly Meeting of the Court at Trinity House, Tower Hill, London EC3.",
+    "description": "Patron, UK Coaching, will hold a Mussabini Medal Presentation Reception at Buckingham Palace.",
     "date": "2024-10-22",
     "time": "13:00",
     "source": "Royal Events",
@@ -3120,7 +3104,7 @@
   },
   {
     "title": "The Princess Royal",
-    "description": "will attend a Scottish Fire and Rescue Commemoration Service on the occasion of its Bicentenary at St. Giles Cathedral, High Street, Edinburgh The City of Edinburgh.",
+    "description": "Royal Patron, Leuchie House, will hold a Dinner at the Palace of Holyroodhouse.",
     "date": "2024-10-23",
     "time": "13:00",
     "source": "Royal Events",
@@ -3494,27 +3478,25 @@
   },
   {
     "title": "Waiting times for cancer treatment across the UK",
-    "description": "A summary of the cross-UK comparability of cancer waiting time statistics that are published by each nation. - Official Statistics (confirmed)",
+    "description": "A summary of the cross-UK comparability of cancer waiting time statistics that are published by each nation. - Official Statistics",
     "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/waiting-times-for-cancer-treatment-across-the-uk",
+    "url": "https://www.gov.uk/government/statistics/waiting-times-for-cancer-treatment-across-the-uk",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Office for National Statistics",
     "date": "2024-08-23",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Family spending in the UK: April 2022 to March 2023",
-    "description": "Average weekly household expenditure on goods and services in the UK, by age, income, economic status, socio-economic class, household composition and region - Accredited official statistics (confirmed)",
+    "description": "Average weekly household expenditure on goods and services in the UK, by age, income, economic status, socio-economic class, household composition and region - Accredited official statistics",
     "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/family-spending-in-the-uk-april-2022-to-march-2023",
+    "url": "https://www.gov.uk/government/statistics/family-spending-in-the-uk-april-2022-to-march-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Office for National Statistics",
     "date": "2024-08-23",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Household Costs Indices for UK household groups: April 2024 to June 2024",
@@ -4346,7 +4328,7 @@
   },
   {
     "title": "The Duchess of Gloucester",
-    "description": "will visit Stablemates, 46 Knights Way, Tewkesbury, Gloucestershire, GL20.",
+    "description": "will visit Wheatpieces Community Centre, Columbine Road, Walton Cardiff, Tewkesbury GL20.",
     "date": "2024-09-20",
     "time": "13:00",
     "source": "Royal Events",
@@ -4358,7 +4340,7 @@
     "date": "2024-09-16",
     "time": null,
     "extractedTime": null,
-    "description": "Event - undefined",
+    "description": "Event - Exhibitions",
     "source": "Bank of England"
   },
   {
@@ -4431,11 +4413,11 @@
   },
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: October 2024",
-    "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and me… - Official Statistics (provisional)",
-    "source": "ONS",
+    "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and me… - Official Statistics (confirmed)",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-october-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2024-10-15",
     "time": "07:00",
     "allMonth": false,
@@ -4443,7 +4425,7 @@
   },
   {
     "title": "Labour market statistics time series: October 2024",
-    "description": "Large dataset which contains labour market statistics data time series. - Accredited official statistics (provisional)",
+    "description": "Large dataset which contains labour market statistics data time series. - Accredited official statistics (confirmed)",
     "source": "ONS",
     "url": "https://www.gov.uk/government/statistics/announcements/labour-market-statistics-time-series-october-2024",
     "dataSource": "Gov Research & Statistics",
@@ -4455,11 +4437,11 @@
   },
   {
     "title": "Labour market in the regions of the UK: October 2024",
-    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. - Accredited official statistics (provisional)",
-    "source": "ONS",
+    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. - Accredited official statistics (confirmed)",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-october-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2024-10-15",
     "time": "07:00",
     "allMonth": false,
@@ -4480,10 +4462,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2024",
     "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and medi… - Official Statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-november-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2024-11-12",
     "time": "07:00",
     "allMonth": false,
@@ -4503,11 +4485,11 @@
   },
   {
     "title": "Labour market in the regions of the UK: December 2024",
-    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. - Accredited official statistics (provisional)",
-    "source": "ONS",
+    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics. - Accredited official statistics (confirmed)",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-december-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2024-12-17",
     "time": "07:00",
     "allMonth": false,
@@ -5456,15 +5438,14 @@
   },
   {
     "title": "Mortgages: Actions for possession bulletin April to June 2024",
-    "description": "This bulletin provides statistics for cases received (i.e. writs and originating summonses issued), cases disposed and final orders made in respect of mortgages in the Chancery Division of the Northern Ireland High Court for… - Accredited official statistics (confirmed)",
+    "description": "Mortgages business in the Chancery Division of the Northern Ireland High Court for the period April to June 2024 - Accredited official statistics",
     "source": "Department of Justice (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/mortgages-actions-for-possession-bulletin-april-to-june-2024",
+    "url": "https://www.gov.uk/government/statistics/mortgages-actions-for-possession-bulletin-april-to-june-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department of Justice (Northern Ireland)",
     "date": "2024-08-23",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Environmental Protection Expenditure Survey, UK: 2022",
@@ -5490,15 +5471,14 @@
   },
   {
     "title": "Deaths Registered in Northern Ireland - Week ending 16 August 2024",
-    "description": "Deaths Registered in Northern Ireland - Week ending 16 August 2024 - Accredited official statistics (confirmed)",
+    "description": "Deaths Registered in Northern Ireland - Week ending 16 August 2024 - Accredited official statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-in-northern-ireland-week-ending-16-august-2024",
+    "url": "https://www.gov.uk/government/statistics/deaths-registered-in-northern-ireland-week-ending-16-august-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-23",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Probation Board NI quarterly caseload, quarter 1, 2024/24",
@@ -5514,15 +5494,14 @@
   },
   {
     "title": "Walking and cycling statistics, England: 2023",
-    "description": "Data and statistics about walking and cycling, based on the National Travel Survey and Active Lives Survey. - Official Statistics (confirmed)",
+    "description": "Data and statistics about walking and cycling, based on the National Travel Survey and Active Lives Survey. - Official Statistics",
     "source": "DfT",
-    "url": "https://www.gov.uk/government/statistics/announcements/walking-and-cycling-statistics-england-2023",
+    "url": "https://www.gov.uk/government/statistics/walking-and-cycling-statistics-england-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Transport",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Road fuel prices: 26 August 2024",
@@ -5538,87 +5517,80 @@
   },
   {
     "title": "National Travel Survey: 2023",
-    "description": "Personal travel in Great Britain during 2023 by residents of England. Including how and why people travel, driving licences and vehicle ownership. - Accredited official statistics (confirmed)",
+    "description": "National Travel Survey (NTS) covering personal travel in 2023 by residents of England. Statistics on how and why people travel, their vehicles and licences. - Accredited official statistics",
     "source": "DfT",
-    "url": "https://www.gov.uk/government/statistics/announcements/national-travel-survey-2023",
+    "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Transport",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Northern Ireland Universal Credit Statistics: May 2024",
-    "description": "Provides experimental statistics on households and individuals on Universal Credit in Northern Ireland. - Official Statistics (confirmed)",
+    "description": "Provides experimental statistics on households and individuals on Universal Credit in Northern Ireland. - Official Statistics",
     "source": "Department for Communities (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/northern-ireland-universal-credit-statistics-may-2024",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-universal-credit-statistics-may-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Communities (Northern Ireland)",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Benefit Cap Report Northern Ireland: May 2024",
-    "description": "Provides experimental statistics on households that have their Housing Benefit or Universal Credit claim capped through the Benefit Cap in Northern Ireland. - Official Statistics (confirmed)",
+    "description": "Provides experimental statistics on households that have their Housing Benefit or Universal Credit claim capped through the Benefit Cap in Northern Ireland. - Official Statistics",
     "source": "Department for Communities (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/benefit-cap-report-northern-ireland-may-2024",
+    "url": "https://www.gov.uk/government/statistics/benefit-cap-report-northern-ireland-may-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Communities (Northern Ireland)",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Northern Ireland Benefit Statistics Summary: May 2024",
-    "description": "Provides an up to date overview and history of the main benefits administered by the Department for Communities (DfC). - Accredited official statistics (confirmed)",
+    "description": "Provides an up to date overview and history of the main benefits administered by the Department for Communities (DfC). - Accredited official statistics",
     "source": "Department for Communities (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/northern-ireland-benefit-statistics-summary-may-2024",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-benefit-statistics-summary-may-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Communities (Northern Ireland)",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Personal Independence Payment Statistics: May 2024",
-    "description": "The report includes further information on the characteristics of claimants on Personal Independence Payment in Northern Ireland over time. - Accredited official statistics (confirmed)",
-    "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/personal-independence-payment-statistics-may-2024",
+    "description": "The report includes further information on the characteristics of claimants on Personal Independence Payment in Northern Ireland over time. - Accredited official statistics",
+    "source": "Department for Communities (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/personal-independence-payment-statistics-may-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "originalSource": "Department for Communities (Northern Ireland)",
     "date": "2024-08-28",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "DBT national survey of registered businesses’ exporting behaviours, attitudes and needs 2023",
-    "description": "Written report, data tables and technical report for Wave 8 of the annual NSRB, covering fieldwork completed between February 2023 and November 2023. The data provides insights on UK companies’ exporting behaviour and attitu… - Official Statistics (confirmed)",
+    "description": "Insights into UK companies’ exporting behaviour and attitudes towards exporting, including perceptions around trade barriers, drawn from fieldwork completed between February 2023 and November 2023. - Official Statistics",
     "source": "Department for Business and Trade",
-    "url": "https://www.gov.uk/government/statistics/announcements/dbt-national-survey-of-registered-businesses-exporting-behaviours-attitudes-and-needs-2023",
+    "url": "https://www.gov.uk/government/statistics/dbt-national-survey-of-registered-businesses-exporting-behaviours-attitudes-and-needs-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Business and Trade",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Work and Health Programme statistics to May 2024",
-    "description": "Quarterly experimental Official Statistics release of Work and Health Programme data. - Official Statistics (confirmed)",
+    "description": "Quarterly Official Statistics release of Work and Health Programme data. - Official Statistics",
     "source": "DWP",
-    "url": "https://www.gov.uk/government/statistics/announcements/work-and-health-programme-statistics-to-may-2024",
+    "url": "https://www.gov.uk/government/statistics/work-and-health-programme-statistics-to-may-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Work and Pensions",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Social Housing Decarbonisation Fund: June 2024",
@@ -5634,27 +5606,25 @@
   },
   {
     "title": "Local authority revenue expenditure and financing England: 2023 to 2024 – first release",
-    "description": "Provisional outturn estimates of local authority revenue expenditure for April 2023 to March 2024. - Accredited official statistics (confirmed)",
+    "description": "Provisional outturn estimates of local authority revenue expenditure for April 2023 to March 2024. - Accredited official statistics",
     "source": "Ministry of Housing, Communities and Local Government",
-    "url": "https://www.gov.uk/government/statistics/announcements/local-authority-revenue-expenditure-and-financing-england-2023-to-2024-first-release",
+    "url": "https://www.gov.uk/government/statistics/local-authority-revenue-expenditure-and-financing-england-2023-to-2024-first-release",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Ministry of Housing, Communities and Local Government",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Deaths registered weekly in England and Wales, provisional: week ending 16 August 2024",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics",
     "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-16-august-2024",
+    "url": "https://www.gov.uk/government/statistics/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-16-august-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Office for National Statistics",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Boiler Upgrade Scheme: July 2024",
@@ -5670,27 +5640,25 @@
   },
   {
     "title": "Anti-social behaviour incidents in Northern Ireland, period ending 31 July 2024",
-    "description": "Monthly update of PSNI anti-social behaviour statistics. - Official Statistics (confirmed)",
+    "description": "Monthly update of PSNI anti-social behaviour statistics. - Official Statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/anti-social-behaviour-incidents-in-northern-ireland-period-ending-31-july-2024",
+    "url": "https://www.gov.uk/government/statistics/anti-social-behaviour-incidents-in-northern-ireland-period-ending-31-july-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Windrush Compensation Scheme data: July 2024",
-    "description": "Data on claims and payments made under the Windrush Compensation Scheme. - Official Statistics (provisional)",
+    "description": "Data on claims and payments made under the Windrush Compensation Scheme. - Official Statistics",
     "source": "Home Office",
-    "url": "https://www.gov.uk/government/statistics/announcements/windrush-compensation-scheme-data-july-2024",
+    "url": "https://www.gov.uk/government/statistics/windrush-compensation-scheme-data-july-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Home Office",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Museums and galleries monthly visits: Quarterly release, April to June 2024",
@@ -5741,27 +5709,25 @@
   },
   {
     "title": "Local authority revenue expenditure and financing England: 2023 to 2024 individual local authority data - outturn",
-    "description": "Outturn data of local authority revenue expenditure and financing for the financial year April 2023 to March 2024. - Accredited official statistics (confirmed)",
+    "description": "Outturn data of local authority revenue expenditure and financing for the financial year April 2023 to March 2024. - Accredited official statistics",
     "source": "Ministry of Housing, Communities and Local Government",
-    "url": "https://www.gov.uk/government/statistics/announcements/local-authority-revenue-expenditure-and-financing-england-2023-to-2024-individual-local-authority-data-outturn",
+    "url": "https://www.gov.uk/government/statistics/local-authority-revenue-expenditure-and-financing-england-2023-to-2024-individual-local-authority-data-outturn",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Ministry of Housing, Communities and Local Government",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Northern Ireland Annual Tourism Statistics 2023",
-    "description": "Compendium of tourism statistics for Northern Ireland for 2023 - Official Statistics (confirmed)",
+    "description": "Compendium of tourism statistics for Northern Ireland for 2023 - Official Statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/northern-ireland-annual-tourism-statistics-2023",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-annual-tourism-statistics-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Milk Price and Production Statistics NI, June 2024",
@@ -5776,15 +5742,14 @@
   },
   {
     "title": "Case processing time for criminal cases dealt with at courts in Northern Ireland 2023 to 2024",
-    "description": "Annual report on average case processing time for criminal cases dealt with in the Crown and magistrates’ courts in Northern Ireland. - Official Statistics (confirmed)",
+    "description": "Annual report on average case processing time for criminal cases dealt with in the Crown and magistrates’ courts in Northern Ireland. - Official Statistics",
     "source": "Department of Justice (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/case-processing-time-for-criminal-cases-dealt-with-at-courts-in-northern-ireland-2023-to-2024",
+    "url": "https://www.gov.uk/government/statistics/case-processing-time-for-criminal-cases-dealt-with-at-courts-in-northern-ireland-2023-to-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department of Justice (Northern Ireland)",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Manufactured Animal Feed Statistics Northern Ireland, May 2024",
@@ -5823,15 +5788,14 @@
   },
   {
     "title": "Hate incidents and crimes in Northern Ireland, period ending 30 June 2024",
-    "description": "Quarterly update of incidents and crimes with a hate motivation reported to PSNI. - Official Statistics (confirmed)",
+    "description": "Quarterly update of incidents and crimes with a hate motivation reported to PSNI. - Official Statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/hate-incidents-and-crimes-in-northern-ireland-period-ending-30-june-2024",
+    "url": "https://www.gov.uk/government/statistics/hate-incidents-and-crimes-in-northern-ireland-period-ending-30-june-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Council Tax: challenges and changes, March 2024",
@@ -5871,15 +5835,14 @@
   },
   {
     "title": "Domestic abuse incidents and crimes in Northern Ireland, period ending 30 June 2024",
-    "description": "Quarterly update of incidents and crimes with a domestic abuse motivation reported to PSNI. - Official Statistics (confirmed)",
+    "description": "Quarterly update of incidents and crimes with a domestic abuse motivation reported to PSNI. - Official Statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/domestic-abuse-incidents-and-crimes-in-northern-ireland-period-ending-30-june-2024",
+    "url": "https://www.gov.uk/government/statistics/domestic-abuse-incidents-and-crimes-in-northern-ireland-period-ending-30-june-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Farm incomes in Northern Ireland: 2022/23",
@@ -5907,15 +5870,14 @@
   },
   {
     "title": "NHS Vacancy Statistics, England, April 2015 - June 2024, Experimental Statistics",
-    "description": "Quarterly compendium publication containing four different views on recruitment information for the NHS. Data from NHS Jobs, the Electronic Staff Record (ESR) and Trac Recruitment Systems (Trac) provide a range of proxy data… - Official Statistics (confirmed)",
+    "description": "Quarterly compendium publication containing four different views on recruitment information for the NHS. - Official Statistics",
     "source": "NHS",
-    "url": "https://www.gov.uk/government/statistics/announcements/nhs-vacancy-statistics-england-april-2015-june-2024-experimental-statistics",
+    "url": "https://www.gov.uk/government/statistics/nhs-vacancy-statistics-england-april-2015-june-2024-experimental-statistics",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Closed organisation: NHS Digital",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Patents, trade marks, and designs monthly statistics: July 2024",
@@ -5954,15 +5916,14 @@
   },
   {
     "title": "Northern Ireland Gambling Licencing and Industry Data 2023",
-    "description": "Data on amusement permits, bingo clubs and bookmaking office licences, as well as the number of people employed in the gambling sector and annual gambling turnover. - Official Statistics (confirmed)",
+    "description": "Data on amusement permits, bingo clubs and bookmaking office licences, as well as the number of people employed in the gambling sector and annual gambling turnover. - Official Statistics",
     "source": "Department for Communities (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/northern-ireland-gambling-licencing-and-industry-data-2023",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-gambling-licencing-and-industry-data-2023",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department for Communities (Northern Ireland)",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Quarterly service personnel statistics",
@@ -5978,15 +5939,14 @@
   },
   {
     "title": "Creative industries statistics: August 2024",
-    "description": "Information on the creative industries’ tax reliefs for film, high-end television, animation, video games, children’s television, theatre, orchestra, and museums and galleries exhibitions, covering accounting periods up to 3… - Official Statistics (confirmed)",
+    "description": "Information on the creative industries’ tax reliefs for film, high-end television, animation, children’s television, video games, theatre, orchestra, and museums and galleries exhibitions. - Official Statistics",
     "source": "HMRC",
-    "url": "https://www.gov.uk/government/statistics/announcements/creative-industries-statistics-august-2024",
+    "url": "https://www.gov.uk/government/statistics/creative-industries-statistics-august-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "HM Revenue & Customs",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Statistical Review of Northern Ireland Agriculture: 2023",
@@ -6038,15 +5998,14 @@
   },
   {
     "title": "Police recorded crime in Northern Ireland, period ending 31 July 2024",
-    "description": "Monthly update of PSNI recorded crime statistics. - Accredited official statistics (confirmed)",
+    "description": "Monthly update of PSNI recorded crime statistics. - Accredited official statistics",
     "source": "Northern Ireland Statistics and Research Agency",
-    "url": "https://www.gov.uk/government/statistics/announcements/police-recorded-crime-in-northern-ireland-period-ending-31-july-2024",
+    "url": "https://www.gov.uk/government/statistics/police-recorded-crime-in-northern-ireland-period-ending-31-july-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Northern Ireland Statistics and Research Agency",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Smart Meters: April to June 2024",
@@ -6062,15 +6021,14 @@
   },
   {
     "title": "Community Pharmaceutical Services Statistics for Northern Ireland, Quarter 1 2024/25",
-    "description": "Statistics related to community pharmacies and dispensing in Northern Ireland for quarter 1 of 2024/25. - Accredited official statistics (confirmed)",
+    "description": "Statistics related to community pharmacies and dispensing in Northern Ireland for quarter 1 of 2024/25. - Accredited official statistics",
     "source": "HSC Business Services Organisation (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/community-pharmaceutical-services-statistics-for-northern-ireland-quarter-1-202425",
+    "url": "https://www.gov.uk/government/statistics/community-pharmaceutical-services-statistics-for-northern-ireland-quarter-1-202425",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "HSC Business Services Organisation (Northern Ireland)",
     "date": "2024-08-29",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Weekly all-cause mortality surveillance: week ending 25 August 2024",
@@ -6341,7 +6299,7 @@
   },
   {
     "title": "NHS Health Check quarterly statistics: April to June 2024 offers and uptake",
-    "description": "Number of NHS Health Check offers and uptake data covering April to June 2024. - Official Statistics (provisional)",
+    "description": "Number of NHS Health Check offers and uptake data covering April to June 2024. - Official Statistics (confirmed)",
     "source": "Office for Health Improvement and Disparities",
     "url": "https://www.gov.uk/government/statistics/announcements/nhs-health-check-quarterly-statistics-april-to-june-2024-offers-and-uptake",
     "dataSource": "Gov Research & Statistics",
@@ -6642,7 +6600,7 @@
   },
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: September 2024",
-    "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and medi… - Official Statistics (provisional)",
+    "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and medi… - Official Statistics (confirmed)",
     "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-september-2024",
     "dataSource": "Gov Research & Statistics",
@@ -7999,7 +7957,7 @@
   },
   {
     "title": "Training and Exercise Deaths in the UK Armed Forces 1 January 2000 to 31 August 2024",
-    "description": "This publication provides summary statistics on deaths which occurred whilst on training and exercise in the UK armed forces since 1 January 2000. - Official Statistics (provisional)",
+    "description": "This publication provides summary statistics on deaths which occurred whilst on training and exercise in the UK armed forces since 1 January 2000. - Official Statistics (confirmed)",
     "source": "MoD",
     "url": "https://www.gov.uk/government/statistics/announcements/training-and-exercise-deaths-in-the-uk-armed-forces-1-january-2000-to-31-august-2024",
     "dataSource": "Gov Research & Statistics",
@@ -8083,7 +8041,7 @@
   },
   {
     "title": "Social Housing Decarbonisation Fund: July 2024",
-    "description": "Data to monitor the installation of energy efficiency measures in domestic properties via the Social Housing Decarbonisation Fund (SHDF) scheme in England. - Official Statistics (provisional)",
+    "description": "Data to monitor the installation of energy efficiency measures in domestic properties via the Social Housing Decarbonisation Fund (SHDF) scheme in England. - Official Statistics (confirmed)",
     "source": "Department for Energy Security and Net Zero",
     "url": "https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-july-2024",
     "dataSource": "Gov Research & Statistics",
@@ -8317,7 +8275,7 @@
   },
   {
     "title": "Boiler Upgrade Scheme: August 2024",
-    "description": "Data monitoring the uptake of low carbon technologies on the Boiler Upgrade Scheme (BUS), including the installation of air source heat pumps, ground source heat pumps and biomass boilers. - Official Statistics (provisional)",
+    "description": "Data monitoring the uptake of low carbon technologies on the Boiler Upgrade Scheme (BUS), including the installation of air source heat pumps, ground source heat pumps and biomass boilers. - Official Statistics (confirmed)",
     "source": "Department for Energy Security and Net Zero",
     "url": "https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-august-2024",
     "dataSource": "Gov Research & Statistics",
@@ -11030,9 +10988,9 @@
   },
   {
     "title": "Labour market in the regions of the UK: November 2024",
-    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics - Accredited official statistics (provisional)",
+    "description": "Regional, local authority and Parliamentary constituency breakdowns of changes in UK employment, unemployment, economic inactivity and other related statistics - Accredited official statistics (confirmed)",
     "source": "ONS",
-    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-november-2024",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-november-2024--2",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Office for National Statistics",
     "date": "2024-11-12",
@@ -13249,10 +13207,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: December 2024",
     "description": "Experimental monthly estimates of payrolled employees and their pay from HM Revenue and Customs' (HMRC) Pay As You Earn (PAYE) Real Time Information (RTI) data. Includes a flash estimate of payrolled employment and medi… - Official Statistics (provisional)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-december-2024",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2024-12-17",
     "time": "07:00",
     "allMonth": false,
@@ -19517,15 +19475,14 @@
   },
   {
     "title": "Milk Price and Production Statistics NI, June 2024",
-    "description": "NI milk price statistics show the average producer prices for raw milk sold off farm and the volume of raw milk collected from NI farms from 2000 to date. - Accredited official statistics (confirmed)",
+    "description": "NI milk price statistics show the average producer prices for raw milk sold off farm and the volume of raw milk collected from NI farms from 2000 to date. - Accredited official statistics",
     "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
-    "url": "https://www.gov.uk/government/statistics/announcements/milk-price-and-production-statistics-ni-june-2024",
+    "url": "https://www.gov.uk/government/statistics/milk-price-and-production-statistics-ni-june-2024",
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
     "date": "2024-08-23",
-    "time": "09:30",
     "allMonth": false,
-    "allDay": false
+    "allDay": true
   },
   {
     "title": "Environmental Protection Expenditure Survey, UK: 2022",
@@ -19577,7 +19534,7 @@
   },
   {
     "title": "Deaths registered weekly in England and Wales, provisional: week ending 23 August 2024",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (confirmed)",
     "source": "ONS",
     "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-23-august-2024",
     "dataSource": "Gov Research & Statistics",
@@ -19625,7 +19582,7 @@
   },
   {
     "title": "Deaths registered weekly in England and Wales, provisional: week ending 30 August 2024",
-    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (confirmed)",
     "source": "ONS",
     "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-30-august-2024",
     "dataSource": "Gov Research & Statistics",
@@ -19643,7 +19600,7 @@
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Home Office",
     "date": "2024-09-11",
-    "time": "09:30",
+    "time": "10:00",
     "allMonth": false,
     "allDay": false
   },
@@ -20032,7 +19989,7 @@
   },
   {
     "title": "Scottish VAT Assignment Experimental Statistics 2022",
-    "description": "This release of experimental statistics on Scottish VAT assignment will include the 2022 estimate and further historical estimates in the back series.  The VAT assignment model calculates the Scottish share of UK VAT for the… - Official Statistics (confirmed)",
+    "description": "This release of experimental statistics on Scottish VAT assignment will include the 2022 estimate and further historical estimates in the back series.  The VAT assignment model calculates the Scottish share of UK VAT for the… - Official Statistics (cancelled)",
     "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/scottish-vat-assignment-experimental-statistics-2022",
     "dataSource": "Gov Research & Statistics",
@@ -20870,10 +20827,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: May 2025",
     "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-may-2025",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2025-05-13",
     "time": "07:00",
     "allMonth": false,
@@ -20984,10 +20941,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: June 2025",
     "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-june-2025",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2025-06-10",
     "time": "07:00",
     "allMonth": false,
@@ -21225,10 +21182,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: August 2025",
     "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Accredited official statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-august-2025",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2025-08-12",
     "time": "07:00",
     "allMonth": false,
@@ -21343,10 +21300,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: October 2025",
     "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-october-2025",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2025-10-14",
     "time": "07:00",
     "allMonth": false,
@@ -21366,10 +21323,10 @@
   {
     "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: November 2025",
     "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
-    "source": "ONS",
+    "source": "HMRC",
     "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-november-2025",
     "dataSource": "Gov Research & Statistics",
-    "originalSource": "Office for National Statistics",
+    "originalSource": "HM Revenue & Customs",
     "date": "2025-11-11",
     "time": "07:00",
     "allMonth": false,
@@ -32721,7 +32678,7 @@
   },
   {
     "title": "Abortion statistics for England and Wales: 2022",
-    "description": "Statistics and commentary on abortions carried out in 2022. - National Statistics",
+    "description": "Statistics and commentary on abortions carried out in 2022. - Accredited official statistics",
     "source": "Office for Health Improvement and Disparities",
     "url": "https://www.gov.uk/government/statistics/abortion-statistics-for-england-and-wales-2022",
     "dataSource": "Gov Research & Statistics",
@@ -48539,7 +48496,7 @@
   },
   {
     "title": "National Travel Survey: 2022",
-    "description": "Personal travel in Great Britain during 2022 by residents of England. Including how and why people travel, driving licences and vehicle ownership. - National Statistics",
+    "description": "Personal travel in Great Britain during 2022 by residents of England. Including how and why people travel, driving licences and vehicle ownership. - Accredited official statistics",
     "source": "DfT",
     "url": "https://www.gov.uk/government/statistics/national-travel-survey-2022",
     "dataSource": "Gov Research & Statistics",
@@ -64308,6 +64265,2389 @@
     "dataSource": "Gov Research & Statistics",
     "originalSource": "Ministry of Defence",
     "date": "2023-07-27",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Open House Festival",
+    "url": "https://www.bankofengland.co.uk/museum/whats-on/2024/open-house-festival",
+    "date": "2024-09-21",
+    "time": null,
+    "extractedTime": null,
+    "description": "Event - undefined",
+    "source": "Bank of England"
+  },
+  {
+    "title": "World Sight Day audio-described tour",
+    "url": "https://www.bankofengland.co.uk/museum/whats-on/2024/world-sight-day-audio-described-tour",
+    "date": "2024-10-10",
+    "time": null,
+    "extractedTime": null,
+    "description": "Event - Audio described tour",
+    "source": "Bank of England"
+  },
+  {
+    "title": "UK International Reserves - October 2024 (to be published at 9.30am)",
+    "url": "https://www.bankofengland.co.uk/statistics/uk-international-reserves/2024/october-2024",
+    "date": "2024-11-05",
+    "time": "09:30",
+    "extractedTime": "9.30am",
+    "description": "Statistics - UK international reserves",
+    "source": "Bank of England"
+  },
+  {
+    "title": "Experiences of NHS healthcare services in England: July 2024",
+    "description": "Analysis from the Health Insight Survey which looks at patients experiences of accessing healthcare. The survey is being conducted by the ONS and funded by NHS England. These are official statistics in development. - Official Statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/experiences-of-nhs-healthcare-services-in-england-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-12",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Consumer price inflation, UK: August 2024 time series",
+    "description": "Comprehensive database of time series covering measures of inflation data for the UK including CPIH, CPI and RPI. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/consumer-price-inflation-uk-august-2024-time-series",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-18",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Contributions to the 12-month rate of CPI(H) by import intensity: August 2024",
+    "description": "A longer time series of contributions to the Consumer Prices Index including owner occupiers' housing costs (CPIH) and Consumer Prices Index (CPI), UK, monthly. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/contributions-to-the-12-month-rate-of-cpih-by-import-intensity-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-18",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Manufacturers' Sales by Product 2023 (PRODCOM)",
+    "description": "Annual estimates for UK manufacturers' sales by product covered by the ProdCom survey. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/uk-manufacturers-sales-by-product-2023-prodcom",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-19",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "The nature of violent crime in England and Wales: Year ending March 2024 ",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/thenatureofviolentcrimeinenglandandwalesyearendingmarch2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Business demography, quarterly, UK: July to September 2024",
+    "date": "2024-10-25",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/businessdemographyquarterlyukjulytoseptember2024",
+    "source": "ONS"
+  },
+  {
+    "title": "Developing a Northern Ireland Consumer Prices Index",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/developinganorthernirelandconsumerpricesindex",
+    "source": "ONS"
+  },
+  {
+    "title": "Estimates of quarterly greenhouse gas emissions (residence basis), UK: Quarter 2 (Apr to Jun) 2024",
+    "description": "Estimates of greenhouse gas emissions using the Chow-Lin regression-based temporal disaggregation method. These are official statistics in development. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/estimates-of-quarterly-greenhouse-gas-emissions-residence-basis-uk-quarter-2-apr-to-jun-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-11-06",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market statistics time series: January 2025",
+    "description": "Large dataset which contains labour market statistics data time series. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-statistics-time-series-january-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-01-21",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Labour Market January 2025",
+    "date": "2025-01-21",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketjanuary2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market in the regions of the UK: January 2025",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development. - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-january-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-01-21",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market in the regions of the UK: February 2025",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development. - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-february-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-02-18",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: February 2025",
+    "date": "2025-02-18",
+    "time": "09:30",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukfebruary2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: March 2025",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-march-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-03-20",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market in the regions of the UK: March 2025",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-march-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-03-20",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market in the regions of the UK: April 2025",
+    "date": "2025-04-15",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukapril2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: April 2025",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-april-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-04-15",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market statistics time series: June 2025",
+    "description": "Large dataset which contains labour market statistics data time series. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-statistics-time-series-june-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-06-10",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market statistics time series: July 2025",
+    "description": "Large dataset which contains labour market statistics data time series. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-statistics-time-series-july-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-07-17",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Labour Market July 2025",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK. - Accredited official statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/uk-labour-market-july-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-07-17",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: July 2025",
+    "description": "Monthly estimates of payrolled employees and their pay from HM Revenue and Customs’ (HMRC’s) Pay As You Earn (PAYE) Real Time Information (RTI) data. This is a joint release between HMRC and the Office for National Statistic… - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/earnings-and-employment-from-pay-as-you-earn-real-time-information-uk-july-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-07-17",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Labour Market August 2025",
+    "date": "2025-08-12",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketaugust2025",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Labour Market September 2025",
+    "date": "2025-09-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketseptember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market in the regions of the UK: September 2025",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-september-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-09-16",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Labour market in the regions of the UK: October 2025",
+    "description": "Regional, local authority, and parliamentary constituency breakdowns of changes in UK employment, unemployment, and economic inactivity, and other related statistics. These are official statistics in development. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/labour-market-in-the-regions-of-the-uk-october-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-10-14",
+    "time": "00:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Labour Market:  November 2025",
+    "date": "2025-11-11",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketnovember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market statistics time series: December 2025",
+    "date": "2025-12-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketstatisticstimeseriesdecember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Labour market in the regions of the UK: December 2025",
+    "date": "2025-12-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/labourmarketintheregionsoftheukdecember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "UK Labour Market December 2025",
+    "date": "2025-12-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/uklabourmarketdecember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "Earnings and employment from Pay As You Earn Real Time Information, UK: December 2025",
+    "date": "2025-12-16",
+    "time": "07:00",
+    "url": "https://www.ons.gov.uk/releases/earningsandemploymentfrompayasyouearnrealtimeinformationukdecember2025",
+    "source": "ONS"
+  },
+  {
+    "title": "The Prince of Wales",
+    "description": "Joint Patron, The Royal Foundation of The Prince and Princess of Wales, will visit the exhibition \"Homelessness:Reframed\", Saatchi Gallery, London, SW3",
+    "date": "2024-09-05",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duke of Gloucester",
+    "description": "Chancellor, University of Worcester, will attend a Graduation Ceremony at Worcester Cathedral.",
+    "date": "2024-09-12",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duchess of Gloucester",
+    "description": "Honorary President, the Lawn Tennis Association, will attend the Davis Cup Matches between Canada and Great Britain at the AO Arena, Victoria Station Approach, Hunts Bank, Manchester M3.",
+    "date": "2024-09-15",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duke of Edinburgh",
+    "description": "will open a new Tri-Station facility at Hebburn Community Tri-Station, Campbell Park Road, Hebburn NE3.",
+    "date": "2024-09-18",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duchess of Gloucester",
+    "description": "President, will visit the Royal Alexandra and Albert School, Gatton Park, Reigate, Surrey, RH2.",
+    "date": "2024-09-18",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duke of Edinburgh",
+    "description": "will visit Enter CIC, 2 Chapel Terrace, Ferryhill, County Durham DL1.",
+    "date": "2024-09-19",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duchess of Edinburgh",
+    "description": "Patron, Wells Cathedral Chorister Trust, will attend a Concert at Wells Cathedral, Cathedral Green, Wells.",
+    "date": "2024-09-25",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Colonel-in-Chief, The Royal Logistic Corps, will visit the Gurkha Allied Rapid Reaction Corps Support Battalion at Imjin Barracks, Innsworth, Gloucester, Gloucestershire.",
+    "date": "2024-09-30",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "President, UK Fashion and Textile Association, will visit The SIL Group's Fibre Processing Mill at Ladywell Mills, Hall Lane, Broomfields, Bradford, West Yorkshire.",
+    "date": "2024-10-01",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "will visit Sheffield Forgemasters Steel Manufacturer, Brightside Lane, Sheffield, South Yorkshire.",
+    "date": "2024-10-02",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duke of Gloucester",
+    "description": "will visit the New Forest National Parks Authority, Station Road, Sway.",
+    "date": "2024-10-02",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "President, Carers Trust, will attend the Short Breaks Wales Conference at Sophia Gardens, Sophia Close, Cardiff, South Glamorgan.",
+    "date": "2024-10-03",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duchess of Edinburgh",
+    "description": "will attend the 10th Anniversary of the People's Dispensary for Sick Animals Order of Merit at The Reveller, The Tower of London, The Wharf, London EC3.",
+    "date": "2024-10-03",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Vice Patron, The British Horse Society, will visit the Changing Lives Through Horses Programme at Saddlers' Hall, 40 Gutter Lane, London EC2.",
+    "date": "2024-10-04",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duchess of Edinburgh",
+    "description": "Royal Colonel, 5th Battalion The Rifles, will attend a Homecoming Parade at Ward Barracks, Bulford, Wiltshire.",
+    "date": "2024-10-04",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Duke of Gloucester The Duchess of Gloucester",
+    "description": "President, Christ's Hospital, and The Duchess of Gloucester, will attend a Lunch at Guildhall.",
+    "date": "2024-10-04",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Patron, Catch22, will open new premises at the Orion Centre, Dunsbury Way, Leigh Park, Havant, Hampshire.",
+    "date": "2024-10-08",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Patron, Special Forces Club, will attend the Annual Reception at Cholmondeley Room and Terrace, the House of Lords, Palace of Westminster, London SW1.",
+    "date": "2024-10-09",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Patron, the Butler Trust, will visit North Tyneside Youth Justice System, Riverside Centre, Minton Lane, North Shields, Tyne and Wear.",
+    "date": "2024-10-10",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Chancellor, Harper Adams University, will open the Digital Learning Hub at the Quad, Station Quarter, Telford, Shropshire.",
+    "date": "2024-10-11",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Patron, The Remembrance Trust, will attend a Dinner at The Beefsteak Club, 9 Irving Street, London WC2.",
+    "date": "2024-10-15",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Royal Patron, The Security Institute, will attend the Annual Conference at The Royal Society of Medicine, 1 Wimpole Street, London W1.",
+    "date": "2024-10-16",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Grand Master, Royal Victorian Order, will attend the Annual Evensong and Reception, Savoy Chapel, Savoy Hill, London WC2.",
+    "date": "2024-10-17",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "will attend a performance by the Spanish Riding School of Vienna at Wembley, London HA9.",
+    "date": "2024-10-18",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "will attend British Champions Day and present the Queen Elizabeth II Stakes Trophies at Ascot Racecourse, High Street, Ascot, Royal County of Berkshire.",
+    "date": "2024-10-19",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "Patron, The Royal Navy and Royal Marines Charity, will attend a Trafalgar Night Dinner at The Painted Hall, Old Royal Naval College, King William Walk, East Greenwich, London SE10.",
+    "date": "2024-10-24",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "The Princess Royal",
+    "description": "will open the General Assembly for the British Standards Institution Annual Meeting of the International Electrotechnical Commission at The Edinburgh International Conference Centre, The Exchange, The City of Edinburgh.",
+    "date": "2024-10-25",
+    "time": "13:00",
+    "source": "Royal Events",
+    "url": "https://www.royal.uk/media-centre/future-engagements"
+  },
+  {
+    "title": "Female Genital Mutilation, Annual Report - April 2023 to March 2024 [delayed from 5 September 2024 due to operational issues]",
+    "date": "2024-09-19",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/female-genital-mutilation/april-2023-to-march-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Provisional Accident and Emergency Quality Indicators for England, August 2024, by provider",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/provisional-accident-and-emergency-quality-indicators-for-england/august-2024-by-provider",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Provisional Monthly Hospital Episode Statistics for Admitted Patient Care, Outpatient and Accident and Emergency data, April 2024 - August 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/provisional-monthly-hospital-episode-statistics-for-admitted-patient-care-outpatient-and-accident-and-emergency-data/april-2024---august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Mental Health Bulletin, 2023-24 Annual report",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/mental-health-bulletin/2023-24-annual-report",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Summary Hospital-level Mortality Indicator (SHMI) - Deaths associated with hospitalisation, England, June 2023 - May 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/shmi/2024-10",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Talking Therapies Monthly Statistics Including Employment Advisors, Performance August 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-talking-therapies-monthly-statistics-including-employment-advisors/performance-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Mental Health Services Monthly Statistics, Performance August 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/mental-health-services-monthly-statistics/performance-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Fit Notes Issued by GP Practices, England, June 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/fit-notes-issued-by-gp-practices/june-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Patients Registered at a GP Practice, October 2024",
+    "date": "2024-10-10",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/patients-registered-at-a-gp-practice/october-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Smoking, Drinking and Drug Use among Young People in England, 2023",
+    "date": "2024-10-17",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/smoking-drinking-and-drug-use-among-young-people-in-england/2023",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Data on written complaints in the NHS, 2023-24",
+    "date": "2024-10-17",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/data-on-written-complaints-in-the-nhs/2023-24",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Primary Care Dementia Data, September 2024",
+    "date": "2024-10-17",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-dementia-data/september-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Learning Disability Services Monthly Statistics, AT: September 2024, MHSDS: August 2024",
+    "date": "2024-10-17",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/learning-disability-services-statistics/at-september-2024-mhsds-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Urgent Mental Health Helplines (NHS111-MH), April to August 2024",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/urgent-mental-health-helplines-nhs111-mh/april-to-august-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Maternity Services Monthly Statistics, Final July 2024, Provisional August 2024, official statistics",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/maternity-services-monthly-statistics/final-july-2024-provisional-august-2024-official-statistics",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Primary Care Network Workforce, 30 September 2024",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-network-workforce/30-september-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "General Practice Workforce, 30 September 2024",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/general-and-personal-medical-services/30-september-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Workforce Statistics, July 2024",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-workforce-statistics/july-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "NHS Sickness Absence Rates, June 2024",
+    "date": "2024-10-24",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-sickness-absence-rates/june-2024",
+    "source": "NHS",
+    "allMonth": false
+  },
+  {
+    "title": "Statistics on Local Stop Smoking Services in England, April 2024 to June 2024 (Q1)",
+    "date": "2024-10-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-nhs-stop-smoking-services-in-england/april-2024-to-june-2024-q1",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Urgent Mental Health Helplines (NHS111-MH), September 2024",
+    "date": "2024-11-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/urgent-mental-health-helplines-nhs111-mh/september-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Urgent Mental Health Helplines (NHS111-MH), October 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/urgent-mental-health-helplines-nhs111-mh/october-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Primary Care Dementia Data, November 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-dementia-data/november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Submissions via Online Consultation Systems in General Practice, November 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/submissions-via-online-consultation-systems-in-general-practice/november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Learning Disability Services Monthly Statistics, AT: November 2024, MHSDS: October 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/learning-disability-services-statistics/at-november-2024-mhsds-october-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Appointments in General Practice, November 2024",
+    "date": "2024-12-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/appointments-in-general-practice/november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Community Services Statistics, October 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/community-services-statistics-for-children-young-people-and-adults/october-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Urgent Mental Health Helplines (NHS111-MH), November 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/urgent-mental-health-helplines-nhs111-mh/november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Provisional Accident and Emergency Quality Indicators for England, November 2024, by provider",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/provisional-accident-and-emergency-quality-indicators-for-england/november-2024-by-provider",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Provisional Monthly Hospital Episode Statistics for Admitted Patient Care, Outpatient and Accident and Emergency data, April 2024 - November 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/provisional-monthly-hospital-episode-statistics-for-admitted-patient-care-outpatient-and-accident-and-emergency-data/april-2024---november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Mental Health Services Monthly Statistics, Performance November 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/mental-health-services-monthly-statistics/performance-november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "NHS Workforce Statistics, September 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-workforce-statistics/september-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "NHS Staff Earnings Estimates, September 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-staff-earnings-estimates/september-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "NHS Sickness Absence Rates, August 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-sickness-absence-rates/august-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Summary Hospital-level Mortality Indicator (SHMI) - Deaths associated with hospitalisation, England, September 2023 - August 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/shmi/2025-01",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "NHS Talking Therapies Monthly Statistics Including Employment Advisors, Performance November 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/nhs-talking-therapies-monthly-statistics-including-employment-advisors/performance-november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Primary Care Dementia Data, December 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/primary-care-dementia-data/december-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Learning Disability Services Monthly Statistics, AT: December 2024, MHSDS: November 2024",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/learning-disability-services-statistics/at-december-2024-mhsds-november-2024",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Maternity Services Monthly Statistics, Final October 2024, Provisional November 2024, official statistics",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/maternity-services-monthly-statistics/final-october-2024-provisional-november-2024-official-statistics",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Statistics on NHS Stop Smoking Services in England, April 2024 to September 2024 (Q2)",
+    "date": "2025-01-01",
+    "url": "https://digital.nhs.uk/data-and-information/publications/statistical/statistics-on-nhs-stop-smoking-services-in-england/april-2024-to-september-2024-q2",
+    "source": "NHS",
+    "allMonth": true
+  },
+  {
+    "title": "Manufactured Animal Feed Statistics Northern Ireland, May 2024",
+    "description": "Animal feed statistics are based on surveys and provide information on the quantities of feed used in Northern Ireland on a monthly, quarterly and annual basis. - Accredited official statistics (provisional)",
+    "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/manufactured-animal-feed-statistics-northern-ireland-may-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "date": "2024-09-03",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Fertiliser Statistics Northern Ireland 2024 - Quarter 2",
+    "description": "Quantities of fertilisers delivered in Northern Ireland, published quarterly. - Accredited official statistics (provisional)",
+    "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/fertiliser-statistics-northern-ireland-2024-quarter-2",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "date": "2024-09-03",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Quarterly revenue update 1 for authorities in England – Live Table: April to June 2024",
+    "description": "The statistical release will provide quarterly revenue expenditure outturn data for local authorities in England, for quarter 1 of the financial year 2024-25 (April to June 2024), and compares it to revenue account data for … - Official Statistics (confirmed)",
+    "source": "Ministry of Housing, Communities and Local Government",
+    "url": "https://www.gov.uk/government/statistics/announcements/quarterly-revenue-outturn-for-authorities-in-england-live-table-april-to-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Housing, Communities and Local Government",
+    "date": "2024-09-12",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Occupations in demand in 2024",
+    "description": "Data and commentary on demand for occupations, using 4-digit SOC20 definitions, and industries, using grouped SIC, across the UK labour market. - Official Statistics (provisional)",
+    "source": "DfE",
+    "url": "https://www.gov.uk/government/statistics/announcements/occupations-in-demand-in-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Education",
+    "date": "2024-09-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "Vehicle licensing statistics: April to June 2024",
+    "description": "Licensed and registered motor vehicle statistics in Great Britain and the United Kingdom for April to June 2024. - Accredited official statistics (confirmed)",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistics/announcements/vehicle-licensing-statistics-april-to-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-09-24",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "The Pensions Regulator: Occupational defined benefit scheme funding analysis 2024",
+    "description": "This annual publication provides an overview of funding levels and recovery plans in occupational defined benefit (DB) and hybrid pension schemes in the UK. - Official Statistics (confirmed)",
+    "source": "DWP",
+    "url": "https://www.gov.uk/government/statistics/announcements/the-pensions-regulator-occupational-defined-benefit-scheme-funding-analysis-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Work and Pensions",
+    "date": "2024-09-24",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Support for Mortgage Interest statistics May 2018 to May 2024",
+    "description": "Official statistics in development on the numbers in receipt of Support for Mortgage Interest loans. - Official Statistics (confirmed)",
+    "source": "DWP",
+    "url": "https://www.gov.uk/government/statistics/announcements/support-for-mortgage-interest-statistics-may-2018-to-may-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Work and Pensions",
+    "date": "2024-09-24",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 13 September 2024",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-13-september-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-25",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Heat pump deployment: June 2024",
+    "description": "Quarterly statistical release on the number of heat pumps installed in the United Kingdom. - Official Statistics (confirmed)",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/announcements/heat-pump-deployment-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Motoring offences statistics in Northern Ireland to 31 July 2024",
+    "description": "Monthly update of statistics relating to Motoring Offences in Northern Ireland. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/motoring-offences-statistics-in-northern-ireland-to-31-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Offences involving the use of weapons: data tables",
+    "description": "Data tables relating to offences involving weapons as recorded by police and hospital episode statistics. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/offences-involving-the-use-of-weapons-data-tables--2",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Participation in education, training and employment age 16 to 18: 2023",
+    "description": "Updates to national participation figures for the end of 2022, released in October 2023, and provisional estimates for the end of 2023.\nThis release was delayed to September 2024 as a result of a delay in availability of th… - Accredited official statistics (confirmed)",
+    "source": "DfE",
+    "url": "https://www.gov.uk/government/statistics/announcements/participation-in-education-training-and-employment-16-to-18-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Education",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Corporation Tax Statistics 2024",
+    "description": "Analyses of Corporation Tax receipts and liabilities - Accredited official statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/corporation-tax-statistics-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Northern Ireland Terrorism Legislation: Annual Statistics 2023",
+    "description": "The report details the use in Northern Ireland of powers contained within the Terrorism Act 2000, the Terrorism (Northern Ireland) Act 2006, the Counter-Terrorism Act 2008 and the Justice and Security (Northern Ireland) Act … - Official Statistics (confirmed)",
+    "source": "Northern Ireland Office",
+    "url": "https://www.gov.uk/government/statistics/announcements/northern-ireland-terrorism-legislation-annual-statistics-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Office",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "PAYE and Corporate Tax receipts from the banking sector: 2024",
+    "description": "Statistics on PAYE Income Tax and National Insurance contributions, Bank Levy, Bank Surcharge, Corporation Tax and Bank Payroll Tax receipts from the banking sector - Official Statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/paye-and-corporate-tax-receipts-from-the-banking-sector-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Council Tax: number of properties by Council Tax band and administrative area (supplementary table), September 2024",
+    "description": "Statistics on the stock of domestic properties by Council Tax Band and property attributes in England and Wales as of September 2024. - Official Statistics (confirmed)",
+    "source": "Valuation Office Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/council-tax-number-of-properties-by-council-tax-band-and-administrative-area-supplementary-table-september-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Valuation Office Agency",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Farm incomes in Northern Ireland: 2022/23",
+    "description": "Incomes, financial position, enterprise performance and fixed costs for the main farm types and sizes in Northern Ireland. - Accredited official statistics (provisional)",
+    "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/farm-incomes-in-northern-ireland-202223",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Food and You 2 (Wave 8)",
+    "description": "The Food and You 2 survey was launched in 2020. It measures self-reported consumer knowledge, attitudes and behaviours related to food safety and other food issues among adults in England, Wales, and Northern Ireland. - Official Statistics (confirmed)",
+    "source": "Food Standards Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/food-and-you-2-wave-8",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Food Standards Agency",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NHS England Abdominal Aortic Aneurysm (AAA) Screening Programme annual standards report for 1 April 2023 to 31 March 2024",
+    "description": "Update of the annual programme standards data report for the NHS England Abdominal Aortic Aneurysm (AAA) Screening Programme for 1 April 2023 to 31 March 2024 - Official Statistics (confirmed)",
+    "source": "NHS",
+    "url": "https://www.gov.uk/government/statistics/announcements/nhs-england-abdominal-aortic-aneurysm-aaa-screening-programme-annual-standards-report-for-1-april-2023-to-31-march-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "NHS England",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Planned LA and school expenditure: 2024 to 2025 financial year",
+    "description": "Local authority (LA) spending plans for education, children's services and social care in the financial year 2024 to 2025. - Official Statistics (confirmed)",
+    "source": "DfE",
+    "url": "https://www.gov.uk/government/statistics/announcements/planned-la-and-school-expenditure-2024-to-2025-financial-year",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Education",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Child and Working Tax Credits Statistics: Finalised Annual Awards, Supplement on Payments – 2022 to 2023",
+    "description": "These statistics focus on the payments paid to families benefiting from tax credits in England, Scotland, Wales and Northern Ireland in the 2022 to 2023 tax year. - Accredited official statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/child-and-working-tax-credits-statistics-finalised-annual-awards-supplement-on-payments-2022-to-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Pupil attendance in schools",
+    "description": "Data on the levels of attendance and overall, authorised and unauthorised absence in state-funded primary, secondary and special schools. - Official Statistics (confirmed)",
+    "source": "DfE",
+    "url": "https://www.gov.uk/government/statistics/announcements/pupil-attendance-in-schools--49",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Education",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Anti-social behaviour incidents in Northern Ireland, period ending 31 August 2024",
+    "description": "Monthly update of PSNI anti-social behaviour statistics. - Official Statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/anti-social-behaviour-incidents-in-northern-ireland-period-ending-31-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Statistical Review of Northern Ireland Agriculture: 2023",
+    "description": "The Statistical Review of Northern Ireland Agriculture is the primary source of statistics for the agricultural industry in Northern Ireland. - Accredited official statistics (provisional)",
+    "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/statistical-review-of-northern-ireland-agriculture-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Egg Packers Survey NI November 2023",
+    "description": "Size and performance of the egg processing sector in Northern Ireland - Accredited official statistics (provisional)",
+    "source": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/egg-packers-survey-ni-november-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Agriculture, Environment and Rural Affairs (Northern Ireland)",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Experience of culture, arts and heritage by adults in Northern Ireland 2023/24",
+    "description": "An annual publication containing survey results on engagement with  the arts, heritage, museums and libraries by adults in Northern Ireland. - Official Statistics (confirmed)",
+    "source": "Department for Communities (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/announcements/engagement-in-culture-arts-and-heritage-by-adults-in-northern-ireland-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Communities (Northern Ireland)",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Police recorded crime in Northern Ireland, period ending 31 August 2024",
+    "description": "Monthly update of PSNI recorded crime statistics. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/police-recorded-crime-in-northern-ireland-period-ending-31-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-09-26",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Police recorded injury road traffic collisions and casualties Northern Ireland monthly report to 31 July 2024",
+    "description": "Monthly statistics update relating to injury road traffic collisions reported to Police. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/police-recorded-injury-road-traffic-collisions-and-casualties-northern-ireland-monthly-report-to-31-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-09-27",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Trends in Police Recorded Drug Seizures and Arrests in Northern Ireland 2006/07 to 2023/24",
+    "description": "Annual financial year trends report on Class A, B and C drug seizure incidents and arrests by the police in Northern Ireland covering the period 2006/07 to 2023/24 - Official Statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/trends-in-police-recorded-drug-seizures-and-arrests-in-northern-ireland-200607-to-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-09-30",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 20 September 2024",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-20-september-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-10-02",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "MOD trade, industry and contracts: 2024",
+    "description": "Information on Ministry of Defence spending with industry and commerce. Notification of new FMS data tables: With the release of the 2023 edition of Trade, Industry and Contracts a new table will be introduced on Foreign Mil… - Official Statistics (confirmed)",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/announcements/mod-trade-industry-and-contracts-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-10-03",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Statutory homelessness in England: financial year 2023-24",
+    "description": "Accredited official statistics on statutory homelessness applications, duties, and outcomes for local authorities in England. - Accredited official statistics (confirmed)",
+    "source": "Ministry of Housing, Communities and Local Government",
+    "url": "https://www.gov.uk/government/statistics/announcements/statutory-homelessness-in-england-financial-year-2023-24",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Housing, Communities and Local Government",
+    "date": "2024-10-03",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Geographical inequalities in premature mortality in England, 21 March 2021 to 7 December 2023",
+    "description": "Premature mortality rates for Upper Tier Local Authorities (UTLA) in England, dated between 21st March 2021 to 7th December 2023. Descriptive statistics are broken down by age, sex, ethnicity, Indices of Multiple Deprivation… - Official Statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/geographical-inequalities-in-premature-mortality-in-england-21-march-2021-to-7-december-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-10-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "Deaths registered weekly in England and Wales, provisional: week ending 27 September 2024",
+    "description": "Provisional number of deaths registered in England and Wales in the latest weeks. - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/deaths-registered-weekly-in-england-and-wales-provisional-week-ending-27-september-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-10-09",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Births in England and Wales: 2023",
+    "description": "Annual live births, stillbirths, maternities and fertility rates in England and Wales broken down by area of usual residence, sex, registration, age of parents, number of previous live-born children, place of birth, multipli… - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/births-in-england-and-wales-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-10-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "Officer Cadet Survey: financial year 2023/24",
+    "description": "Summary statistics on officer cadets’ experience of training, facilities, food, support, fairness of treatment and hopes for the future. - Official Statistics (provisional)",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/announcements/officer-cadet-survey-financial-year-202324--2",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-10-10",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Income-related benefits: estimates of take-up: financial year ending 2023",
+    "description": "Estimates of take-up of income-related benefits for Great Britain for the financial year ending 2023. - Official Statistics (confirmed)",
+    "source": "DWP",
+    "url": "https://www.gov.uk/government/statistics/announcements/income-related-benefits-estimates-of-take-up-financial-year-ending-2023",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Work and Pensions",
+    "date": "2024-10-10",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Recruit trainee survey: financial year 2023/24",
+    "description": "A tri-service attitude survey on training, facilities, food, support and fairness of treatment. - Official Statistics (provisional)",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/announcements/recruit-trainee-survey-financial-year-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-10-10",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Crime outcomes year to June 2024: data tables",
+    "description": "Outcomes assigned to offences recorded to June 2024 and the total number of outcomes recorded, by outcome type and offence type. - Official Statistics (confirmed)",
+    "source": "Home Office",
+    "url": "https://www.gov.uk/government/statistics/announcements/crime-outcomes-year-to-june-2024-data-tables",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Home Office",
+    "date": "2024-10-24",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Local authority registered provider social housing stock and rents in England 2023/24",
+    "description": "This release provides details of social housing stock and rents owned by Local Authority Registered Providers in England. - Accredited official statistics (confirmed)",
+    "source": "Regulator of Social Housing",
+    "url": "https://www.gov.uk/government/statistics/announcements/local-authority-registered-provider-social-housing-stock-and-rents-in-england-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Regulator of Social Housing",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Registered provider social housing stock and rents in England 2023/24",
+    "description": "This release provides details of social housing stock and rents owned by private and local authority registered providers in England. - Accredited official statistics (confirmed)",
+    "source": "Regulator of Social Housing",
+    "url": "https://www.gov.uk/government/statistics/announcements/registered-provider-social-housing-stock-and-rents-in-england-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Regulator of Social Housing",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Private registered provider social housing stock and rents in England 2023/24",
+    "description": "This release provides details of social housing stock and rents owned by Private Registered Providers in England. - Accredited official statistics (confirmed)",
+    "source": "Regulator of Social Housing",
+    "url": "https://www.gov.uk/government/statistics/announcements/private-registered-provider-social-housing-stock-and-rents-in-england-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Regulator of Social Housing",
+    "date": "2024-10-29",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK armed forces equipment and formations 2024",
+    "description": "Annual statistics on vessels, land equipment and aircraft of the armed forces, and military formations. - Accredited official statistics (provisional)",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/announcements/uk-armed-forces-equipment-and-formations-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Near to real-time suspected suicide surveillance (nRTSSS) for England for the 15 months to July 2024",
+    "description": "These statistics act as an early warning system for changes in patterns of deaths by suicide to enable intervention. The report will describe monthly suspected suicide rates by age group and sex, and quarterly proportions by… - Official Statistics (confirmed)",
+    "source": "Office for Health Improvement and Disparities",
+    "url": "https://www.gov.uk/government/statistics/announcements/near-to-real-time-suspected-suicide-surveillance-nrtsss-for-england-for-the-15-months-to-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for Health Improvement and Disparities",
+    "date": "2024-10-31",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Defence personnel health and safety statistics: financial year 2023/24",
+    "description": "Ministry of Defence figures for injury, illness and deaths of service personnel, civilian employees and other civilian personnel. - Official Statistics (provisional)",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/announcements/defence-personnel-health-and-safety-statistics-financial-year-202324",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-11-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "Forestry Commission Key Performance Indicators: Headline Performance Update at 30 September 2024",
+    "description": "Mid-year report on the Forestry Commission's 6 headline key performance indicators (KPIs). - Official Statistics (confirmed)",
+    "source": "Forestry Commission",
+    "url": "https://www.gov.uk/government/statistics/announcements/forestry-commission-key-performance-indicators-headline-performance-update-at-30-september-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Forestry Commission",
+    "date": "2024-11-12",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Funding for flood and coastal erosion risk management in England",
+    "description": "A detailed breakdown of funding for flood and coastal erosion risk management in England. - Official Statistics (provisional)",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/announcements/funding-for-flood-and-coastal-erosion-risk-management-in-england--7",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-11-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "Trends in UK business dynamism and productivity: 2024",
+    "description": "Experimental statistics on firm-level productivity, business dynamism and business markup estimates - Official Statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/trends-in-uk-business-dynamism-and-productivity-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-12-01",
+    "allMonth": true,
+    "allDay": true
+  },
+  {
+    "title": "UK Labour Market January 2025",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK. - Accredited official statistics (confirmed)",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/announcements/uk-labour-market-january-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2025-01-01",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: January 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-january-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-01-21",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: February 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-february-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-02-18",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: March 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-march-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-03-20",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: April 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-april-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-04-15",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Child and maternal health profiles: May 2025 update",
+    "description": "Update of indicators related to hospital admissions for children with long-term conditions, emergency hospital admissions, A&E attendances, under 18 conceptions, and pregnancy and birth. - Official Statistics (provisional)",
+    "source": "Office for Health Improvement and Disparities",
+    "url": "https://www.gov.uk/government/statistics/announcements/child-and-maternal-health-profiles-may-2025-update",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for Health Improvement and Disparities",
+    "date": "2025-05-07",
+    "time": "09:30",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: May 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-may-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-05-13",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "UK Labour Market June 2025",
+    "description": "Estimates of employment, unemployment, inactivity, average weekly earnings, vacancies and other labour market related statistics for the UK. - Official Statistics (confirmed)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/uk-labour-market-june-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-06-10",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: June 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-june-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-06-10",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: July 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-july-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-07-17",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: August 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-august-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-08-12",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Retail Sales; Great Britain, July 2025 time series",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted. - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/retail-sales-great-britain-july-2025-time-series",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-08-22",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Retail Sales; Great Britain: July 2025",
+    "description": "A first estimate of retail sales in volume and value terms, seasonally and non-seasonally adjusted. - Accredited official statistics (provisional)",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/announcements/retail-sales-great-britain-july-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2025-08-22",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: September 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-september-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-09-16",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: October 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-october-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-10-14",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "NI Labour Market statistics: November 2025",
+    "description": "The NI Labour Market report includes latest statistics on employment, unemployment, inactivity, employees, jobseekers, vacancies, redundancies and earnings. - Accredited official statistics (confirmed)",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/announcements/ni-labour-market-statistics-november-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2025-11-11",
+    "time": "07:00",
+    "allMonth": false,
+    "allDay": false
+  },
+  {
+    "title": "Weekly all-cause mortality surveillance: 2024 to 2025",
+    "description": "How the actual number of deaths in England compare with the expected numbers of deaths for each week. - Official Statistics",
+    "source": "UK Health Security Agency",
+    "url": "https://www.gov.uk/government/statistics/weekly-all-cause-mortality-surveillance-2024-to-2025",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "UK Health Security Agency",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "National flu and COVID-19 surveillance reports: 2024 to 2025 season",
+    "description": "National influenza (flu) and COVID-19 report, monitoring COVID-19 activity, seasonal flu and other seasonal respiratory illnesses. - Official Statistics",
+    "source": "UK Health Security Agency",
+    "url": "https://www.gov.uk/government/statistics/national-flu-and-covid-19-surveillance-reports-2024-to-2025-season",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "UK Health Security Agency",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Schedule of updates and announcements for HMRC's statistics",
+    "description": "Publication plan for HMRC National and Official Statistics. Any changes to the schedule will be detailed in the announcements. - Official Statistics",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/schedule-of-updates-for-hmrcs-statistics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Pre-release access to DWP statistics",
+    "description": "Job titles of people with pre-release access to Department for Work and Pensions (DWP) statistics and the organisations they belong to. - Official Statistics",
+    "source": "DWP",
+    "url": "https://www.gov.uk/government/statistics/pre-release-access-to-statistics-order-2008",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Work and Pensions",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Price Paid Data",
+    "description": "Download the Price Paid Data (PPD) in text or CSV format and access our linked data. - Statistical data set",
+    "source": "HM Land Registry",
+    "url": "https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Land Registry",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Northern Ireland Diagnostic Waiting Time Statistics Quarter Ending June 2024",
+    "description": "Presents information on waiting times at the end of each quarter for a diagnostic service and diagnostic reporting turnaround times. - Official Statistics",
+    "source": "Dept. of Health (NI)",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-diagnostic-waiting-time-statistics-quarter-ending-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Health (Northern Ireland)",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Northern Ireland Waiting Times Statistics: Outpatient Waiting Times Quarter Ending June 2024",
+    "description": "Presents information on waiting times at the end of each quarter for a first consultant-led outpatient appointment and a first integrated clinical assessment and treatment services (ICATS) appointment. - Accredited official statistics",
+    "source": "Dept. of Health (NI)",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-waiting-times-statistics-outpatient-waiting-times-quarter-ending-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Health (Northern Ireland)",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Agricultural land use in England",
+    "description": "Estimates of crop areas, land use and land ownership in England. - Accredited official statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/agricultural-land-use-in-england",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Latest UK milk prices and composition of milk",
+    "description": "Monthly UK averages of the farm-gate price and butterfat and protein content of milk delivered to dairies. - Accredited official statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/uk-milk-prices-and-composition-of-milk",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Historical statistics notices on UK milk prices and composition of milk, 2024",
+    "description": "Previously published National Statistics notices on UK averages of the farm-gate price and composition of milk. - Accredited official statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/historical-statistics-notices-on-uk-milk-prices-and-composition-of-milk-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Livestock populations in England",
+    "description": "Information on the numbers of cattle, sheep, pigs, poultry and other livestock in England. - Accredited official statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/livestock-populations-in-england",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Animal feed prices",
+    "description": "Series of straights and compound animal feed prices across Great Britain. - Statistical data set",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistical-data-sets/animal-feed-prices",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Northern Ireland Waiting Times Statistics: Inpatient Waiting Times Quarter Ending June 2024",
+    "description": "Presents information on waiting times at the end of each quarter for admission for inpatient treatment. - Accredited official statistics",
+    "source": "Dept. of Health (NI)",
+    "url": "https://www.gov.uk/government/statistics/northern-ireland-waiting-times-statistics-inpatient-waiting-times-quarter-ending-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Health (Northern Ireland)",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Domestic energy price indices",
+    "description": "Quarterly and monthly consumer price indices of fuel components in current and real terms. - Statistical data set",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistical-data-sets/monthly-domestic-energy-price-stastics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Monthly and annual prices of road fuels and petroleum products",
+    "description": "Monthly and annual prices of road fuels and fuels used for home heating, plus an index of crude oil prices. - Statistical data set",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistical-data-sets/oil-and-petroleum-products-monthly-statistics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Museums and galleries monthly visits",
+    "description": "Monthly provisional statistics on the number of visits to the DCMS-sponsored museums and galleries are published here every quarter. - Statistical data set",
+    "source": "Department for Culture, Media and Sport",
+    "url": "https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Culture, Media and Sport",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Comparisons of international road fuel prices",
+    "description": "Comparisons of road fuel prices against other EU countries, using data from the European Commission Oil Bulletin. - Statistical data set",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistical-data-sets/comparisons-of-international-road-fuel-prices",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Suicides in England and Wales: 2023 registrations",
+    "description": "Registered deaths in England and Wales from suicide analysed by sex, age, area of usual residence of the deceased, and suicide method. - Official Statistics",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/suicides-in-england-and-wales-2023-registrations",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Companies House management information: April 2023 to March 2024",
+    "description": "Management information tables for Companies House, April 2023 to March 2024. Companies House publishes this information annually. - Statistical data set",
+    "source": "Companies House",
+    "url": "https://www.gov.uk/government/statistical-data-sets/companies-house-management-information-april-2023-to-march-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Companies House",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Cereal and oilseed areas in England",
+    "description": "Information on wheat, barley, oats, oilseed and other cereal crop areas in England. - Accredited official statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/cereal-and-oilseed-rape-areas-in-england",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Structure of the agricultural industry in England and the UK at June",
+    "description": "Detailed annual statistics on the structure of the agricultural industry at 1 June in England and the UK. - Statistical data set",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistical-data-sets/structure-of-the-agricultural-industry-in-england-and-the-uk-at-june",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Background information and quality report: creative industries statistics",
+    "description": "Background information and quality report for statistics relating to the creative industries tax reliefs. - Official Statistics",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/background-information-and-quality-report-creative-industries-statistics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Quarterly suicide death registrations in England: 2001 to 2023 registrations and Quarter 1 (Jan to Mar) to Quarter 2 (Apr to June) 2024 provisional data",
+    "description": "Provisional rate and number of suicide deaths registered in England per quarter. Includes 2001 to 2023 registrations and provisional data for Quarter 1 (Jan to Mar) 2024. - Official Statistics",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/quarterly-suicide-death-registrations-in-england-2001-to-2023-registrations-and-quarter-1-jan-to-mar-to-quarter-2-apr-to-june-2024-provisional-da",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Council Tax: challenges and changes in England and Wales, March 2024",
+    "description": "Statistics on challenges against and changes made to the England and Wales Council Tax valuation lists between 1 April 1993 and 31 March 2024. - Official Statistics",
+    "source": "Valuation Office Agency",
+    "url": "https://www.gov.uk/government/statistics/council-tax-challenges-and-changes-in-england-and-wales-march-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Valuation Office Agency",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK total energy",
+    "description": "Data on overall energy balances of energy supply and demand in the United Kingdom. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/total-energy-section-1-energy-trends",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK solid fuels and derived gases",
+    "description": "Data on coal and coal-related products, including production, trade, consumption and stocks. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/solid-fuels-and-derived-gases-section-2-energy-trends",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK oil and oil products",
+    "description": "Data on oil and oil products, including upstream production and UK refinery activity, trade, stocks and demand. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/oil-and-oil-products-section-3-energy-trends",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK gas",
+    "description": "Data on the UK's gas sector, including production, trade and demand. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/gas-section-4-energy-trends",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK weather",
+    "description": "Quarterly and monthly data on weather patterns, including temperature, heating degree days, wind speeds, sun hours and rainfall. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/energy-trends-section-7-weather",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Valuation Office Agency – Statistics at VOA",
+    "description": "The Valuation Office Agency (VOA) publish official statistics for England and Wales on Non-Domestic Rating and Council Tax. - Statistics",
+    "source": "Valuation Office Agency",
+    "url": "https://www.gov.uk/government/organisations/valuation-office-agency/about/statistics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Valuation Office Agency",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Quarterly Service Personnel Statistics: 2024",
+    "description": "UK service personnel statistics on strengths, requirements, intake, applications and outflow, by service for 2024. - Accredited official statistics",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/quarterly-service-personnel-statistics-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends and Prices statistical release: 29 August 2024",
+    "description": "The latest provisional monthly energy production, trade, consumption and prices statistics produced by the Department for Energy Security and Net Zero. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/energy-trends-and-prices-statistical-release-29-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Near to real-time suspected suicide surveillance (nRTSSS) for England",
+    "description": "Monthly reporting of deaths by suspected suicide, acting as an early warning system for indications of change in suicides to inform suicide prevention. - Official Statistics",
+    "source": "Office for Health Improvement and Disparities",
+    "url": "https://www.gov.uk/government/statistics/near-to-real-time-suspected-suicide-surveillance-nrtsss-for-england",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for Health Improvement and Disparities",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Energy Trends: UK electricity",
+    "description": "Data on electricity generation, supply, consumption and fuel use for generation. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/electricity-section-5-energy-trends",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Monthly statistics: Patents, trade marks and designs: July 2024",
+    "description": "These statistics include monthly data for patents, trade marks and designs. - Official Statistics",
+    "source": "Intellectual Property Office",
+    "url": "https://www.gov.uk/government/statistics/monthly-statistics-patents-trade-marks-and-designs-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Intellectual Property Office",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Boiler Upgrade Scheme statistics: July 2024",
+    "description": "Statistical release on Boiler Upgrade Scheme statistics for the estimation of capital grant uptake to support the installations of low carbon technologies in domestic and non-domestic buildings. - Official Statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/boiler-upgrade-scheme-statistics-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Social Housing Decarbonisation Fund statistics: August 2024",
+    "description": "Data to monitor the installation of energy efficiency measures in domestic properties via the Social Housing Decarbonisation Fund (SHDF) scheme in England. - Official Statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/social-housing-decarbonisation-fund-statistics-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Smart meters in Great Britain, quarterly update June 2024",
+    "description": "Quarterly statistics on the roll-out of smart meters in Great Britain, covering both operating and installed meters. - Official Statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/smart-meters-in-great-britain-quarterly-update-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Household Energy Efficiency Statistics, headline release August 2024",
+    "description": "Household Energy Efficiency Statistics, headline release (August 2024). - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/household-energy-efficiency-statistics-headline-release-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Green Homes Grant Local Authority Delivery (LAD) and Home Upgrade Grant (HUG) release, August 2024",
+    "description": "Data to monitor the installation of energy efficiency measures in domestic properties via Green Homes Grant Local Authority Delivery (LAD) and Home Upgrade Grant (HUG) schemes in England. - Official Statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/green-homes-grant-local-authority-delivery-lad-and-home-upgrade-grant-hug-release-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Solar photovoltaics deployment",
+    "description": "Monthly deployment of all solar photovoltaic capacity in the United Kingdom. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/solar-photovoltaics-deployment",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Unclaimed estates list",
+    "description": "A list of unclaimed estates held by the Treasury Solicitor. Last updated 29th August 2024 - Statistical data set",
+    "source": "Bona Vacantia",
+    "url": "https://www.gov.uk/government/statistical-data-sets/unclaimed-estates-list",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Bona Vacantia",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Quota use statistics",
+    "description": "UK quota management spreadsheets showing uptake of fish catches by each producer organisation against their allocations for the year. - Statistical data set",
+    "source": "Marine Management Organisation",
+    "url": "https://www.gov.uk/government/statistical-data-sets/quota-use-statistics",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Marine Management Organisation",
+    "date": "2024-08-29",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "CS, ES and SFI option uptake data 2024",
+    "description": "Countryside Stewardship, Environmental Stewardship and Sustainable Farming Incentive option uptake data as of 1st April 2024 - Official Statistics",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistics/cs-es-and-sfi-option-uptake-data-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Justice in Numbers Summary Tables and Pocketbook",
+    "description": "Summary of the latest information presented in Justice in Numbers. - Official Statistics",
+    "source": "MoJ",
+    "url": "https://www.gov.uk/government/statistics/justice-in-numbers-summary-tables",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Justice",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Vehicle mileage and occupancy",
+    "description": "Data on vehicle mileage and occupancy, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts09-vehicle-mileage-and-occupancy",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Region and Rural-Urban Classification",
+    "description": "Data about travel by region and mode of transport, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts99-travel-by-region-and-area-type-of-residence",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "MOD statistics pre-release access list",
+    "description": "The individuals who have 24 hour pre-release access to Ministry of Defence's key national and official statistics publications. - Official Statistics",
+    "source": "MoD",
+    "url": "https://www.gov.uk/government/statistics/defence-statistics-pre-release-access-list",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Defence",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Weekly road fuel prices",
+    "description": "Road fuel price statistics providing average UK retail 'pump' prices on a weekly basis. - Accredited official statistics",
+    "source": "Department for Energy Security and Net Zero",
+    "url": "https://www.gov.uk/government/statistics/weekly-road-fuel-prices",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Energy Security and Net Zero",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Walking and cycling statistics (CW)",
+    "description": "Data about walking and cycling, based on the National Travel Survey and Active Lives Survey. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/walking-and-cycling-statistics-cw",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Ad-hoc National Travel Survey analysis",
+    "description": "Custom data tables produced for members of the public and for researchers, using data from the National Travel Survey and the National Travel Attitudes Study. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/ad-hoc-national-travel-survey-analysis",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Household Costs Indices for UK household groups",
+    "description": "Estimates of inflation rates experienced by different types of household in the UK. - Official Statistics",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/household-costs-indices-for-uk-household-groups",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Driving licence holding and vehicle availability",
+    "description": "Data on driving licence holding and vehicle availability, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts02-driving-licence-holders",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Mode of travel",
+    "description": "Data about people travelling by mode of transport, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts03-modal-comparisons",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Purpose of travel",
+    "description": "Data about why people travel, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts04-purpose-of-trips",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "When people travel",
+    "description": "Data about when people travel by time of day, daily and monthly patterns, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts05-trips",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Cycling, motorcycling, school travel, concessionary travel and road safety",
+    "description": "Data on cycling, motorcycling, school travel, concessionary travel and road safety, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts06-age-gender-and-modal-breakdown",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Travel by vehicle availability, income, ethnic group, household type, mobility status and NS-SEC",
+    "description": "Data on vehicle availability, income, ethnic group, household type and mobility status, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts07-car-ownership-and-access",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Accessibility",
+    "description": "Data about transport accessibility and mobility, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts08-availability-and-distance-from-key-local-services",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Average number of trips made and distance travelled",
+    "description": "Data on number of trips made and distance travelled, produced by Department for Transport. - Statistical data set",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistical-data-sets/nts01-average-number-of-trips-made-and-distance-travelled",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Probation Board NI quarterly caseload, quarter 1, 2024/25",
+    "description": "This quarterly report presents information on service users and caseload supervised by the Probation Board for Northern Ireland on 30th June 2024. - Official Statistics",
+    "source": "Northern Ireland Statistics and Research Agency",
+    "url": "https://www.gov.uk/government/statistics/probation-board-ni-quarterly-caseload-quarter-1-202425",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Northern Ireland Statistics and Research Agency",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "National Travel Survey 2023: Technical report",
+    "description": "The technical report provides information on the design and operation of data collection and preparation for the National Travel Survey (NTS) in 2023. - Accredited official statistics",
+    "source": "DfT",
+    "url": "https://www.gov.uk/government/statistics/national-travel-survey-2023-technical-report",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Transport",
+    "date": "2024-08-28",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "July effort statistics 2024",
+    "description": "July effort statistics 2024 - Statistical data set",
+    "source": "Marine Management Organisation",
+    "url": "https://www.gov.uk/government/statistical-data-sets/july-effort-statistics-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Marine Management Organisation",
+    "date": "2024-08-27",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Wholesale fruit and vegetable prices",
+    "description": "Series of weekly average wholesale market prices of selected home grown horticultural produce. - Statistical data set",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistical-data-sets/wholesale-fruit-and-vegetable-prices-weekly-average",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-26",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Banana prices",
+    "description": "Average weekly wholesale prices of bananas by country of origin - Statistical data set",
+    "source": "Defra",
+    "url": "https://www.gov.uk/government/statistical-data-sets/banana-prices",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department for Environment, Food & Rural Affairs",
+    "date": "2024-08-26",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Right to Buy sales and replacements, England 2023 to 2024",
+    "description": "Official statistics on the sales of local authority-owned dwellings through the Right to Buy scheme. - Official Statistics",
+    "source": "Ministry of Housing, Communities and Local Government",
+    "url": "https://www.gov.uk/government/statistics/right-to-buy-sales-and-replacements-england-2023-to-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Ministry of Housing, Communities and Local Government",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Management information on magistrates’ court activity - 23 August 2024",
+    "description": "Management information up to and including 22 August 2024 on activity taking place in magistrates’ courts. - Statistical data set",
+    "source": "HM Courts & Tribunals Service",
+    "url": "https://www.gov.uk/government/statistical-data-sets/management-information-on-magistrates-court-activity-23-august-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Courts & Tribunals Service",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Environmental Protection Expenditure Survey UK: 2022",
+    "description": "Estimates of environmental protection expenditure by UK industries, based on the Environmental Protection Expenditure Survey. - Accredited official statistics",
+    "source": "ONS",
+    "url": "https://www.gov.uk/government/statistics/environmental-protection-expenditure-survey-uk-2022--2",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Office for National Statistics",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Non-Quota species uptake by UK vessels in EU waters - July 2024",
+    "description": "Non-Quota species uptake by UK vessels in EU waters - July 2024 - Official Statistics",
+    "source": "Marine Management Organisation",
+    "url": "https://www.gov.uk/government/statistics/non-quota-species-uptake-by-uk-vessels-in-eu-waters-july-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Marine Management Organisation",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Non-Quota species uptake by UK vessels: Provisional data 2024",
+    "description": "Non-Quota species uptake by UK vessels: Provisional data - Official Statistics",
+    "source": "Marine Management Organisation",
+    "url": "https://www.gov.uk/government/statistics/non-quota-species-uptake-by-uk-vessels-provisional-data-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Marine Management Organisation",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "Fire statistics incident level datasets",
+    "description": "The Home Office collects detailed information on incidents attended by Fire and Rescue Services. - Official Statistics",
+    "source": "Home Office",
+    "url": "https://www.gov.uk/government/statistics/fire-statistics-incident-level-datasets",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Home Office",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "HMRC statistics: pre-release access list",
+    "description": "HM Revenue and Customs' record of those who have pre-release access to Official Statistics. - Official Statistics",
+    "source": "HMRC",
+    "url": "https://www.gov.uk/government/statistics/hmrc-statistics-pre-release-access-list",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "HM Revenue & Customs",
+    "date": "2024-08-23",
+    "allMonth": false,
+    "allDay": true
+  },
+  {
+    "title": "NICTS Quarterly Provisional Figures April to June 2024",
+    "description": "Statistics for the Northern Ireland Court and Tribunals Service for the quarter April to June 2024 - Official Statistics",
+    "source": "Department of Justice (Northern Ireland)",
+    "url": "https://www.gov.uk/government/statistics/nicts-quarterly-provisional-figures-april-to-june-2024",
+    "dataSource": "Gov Research & Statistics",
+    "originalSource": "Department of Justice (Northern Ireland)",
+    "date": "2024-08-23",
     "allMonth": false,
     "allDay": true
   }
